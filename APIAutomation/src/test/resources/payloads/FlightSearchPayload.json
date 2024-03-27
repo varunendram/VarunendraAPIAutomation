@@ -1,0 +1,25 @@
+{
+  
+   "cabinClass":"Economy",
+   "promoCode":"TESTTEST",
+  "isDestMetro": false,
+  "isOriginMetro": true,
+  "paxInfo": {
+    "adultCount": 2,
+    "childCount": 0,
+    "infantCount":0
+  },
+  "searchCriteria": [
+    {
+      "date": "{{date}} 12:00 AM",
+      "dest": "{{dest}}",
+      "direction": "outBound",
+      "origin": "{{origin}}",
+      "isOriginMetro": true,
+      "isDestMetro": false
+    }
+   
+  ],
+  "variant": "1",
+  "curr": "INR"
+}

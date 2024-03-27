@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="api.utilities.ExtentReportManager" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="api.bookflight.CreateToken" />
+			<class name="api.bookflight.FlightSeachDayOne" />
+			<class name="api.bookflight.AddFlight" />
+			<class name="api.bookflight.Payment" />
+			<class name="api.bookflight.GetPciSesssion" />
+			<class name="api.bookflight.Paylater" />
+			<class name="api.bookflight.Confirm" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

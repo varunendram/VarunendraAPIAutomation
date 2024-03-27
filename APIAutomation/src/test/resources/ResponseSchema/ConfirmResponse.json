@@ -1,0 +1,2019 @@
+{
+ "passengerList": [
+  {
+   "passengerId": "<string>",
+   "passengerType": "<string>",
+   "title": "<string>",
+   "firstName": "<string>",
+   "middleName": "<string>",
+   "lastName": "<string>",
+   "dob": "<string>",
+   "isPrimaryPassenger": "<boolean>",
+   "emailAddress": "<string>",
+   "nationality": "<string>",
+   "documentNumber": "<string>",
+   "documentExpiryDate": "<string>",
+   "passportIssuingCountry": "<string>",
+   "countryOfResidence": "<string>",
+   "contactMobileContryCode": "<string>",
+   "contactMobileNumber": "<string>",
+   "contactMobileNumberField": "<string>",
+   "contactTelephoneContryCode": "<string>",
+   "contactTelephoneNumber": "<string>",
+   "contactTelephoneField": "<string>",
+   "accompanyingAdult": "<string>",
+   "memberId": "<string>",
+   "tierId": "<string>",
+   "tierName": "<string>",
+   "deleteEnabled": "<string>",
+   "isMinor": "<string>",
+   "ffpEnabled": "<string>",
+   "tierInfo": "<string>"
+  },
+  {
+   "passengerId": "<string>",
+   "passengerType": "<string>",
+   "title": "<string>",
+   "firstName": "<string>",
+   "middleName": "<string>",
+   "lastName": "<string>",
+   "dob": "<string>",
+   "isPrimaryPassenger": "<boolean>",
+   "emailAddress": "<string>",
+   "nationality": "<string>",
+   "documentNumber": "<string>",
+   "documentExpiryDate": "<string>",
+   "passportIssuingCountry": "<string>",
+   "countryOfResidence": "<string>",
+   "contactMobileContryCode": "<string>",
+   "contactMobileNumber": "<string>",
+   "contactMobileNumberField": "<string>",
+   "contactTelephoneContryCode": "<string>",
+   "contactTelephoneNumber": "<string>",
+   "contactTelephoneField": "<string>",
+   "accompanyingAdult": "<string>",
+   "memberId": "<string>",
+   "tierId": "<string>",
+   "tierName": "<string>",
+   "deleteEnabled": "<string>",
+   "isMinor": "<string>",
+   "ffpEnabled": "<string>",
+   "tierInfo": "<string>"
+  }
+ ],
+ "preferences": {
+  "isReadyToSignUpForOffers": "<boolean>"
+ },
+ "sessionRemainingTime": "<integer>",
+ "paymentStatus": "<boolean>",
+ "pnrStatus": "<string>",
+ "payLaterRemainingTime": "<string>",
+ "paymentFailureReasonKey": "<string>",
+ "pnrReference": "<string>",
+ "searchRequest": {
+  "promoCode": "<string>",
+  "payload": "<string>",
+  "cabinClass": "<string>",
+  "journeyType": "<string>",
+  "isOriginMetro": "<boolean>",
+  "isDestMetro": "<boolean>",
+  "searchCriteria": [
+   {
+    "origin": "<string>",
+    "dest": "<string>",
+    "originMetroGroup": "<string>",
+    "destMetroGroup": "<string>",
+    "direction": "<string>",
+    "date": "<string>",
+    "isOriginMetro": "<boolean>",
+    "isDestMetro": "<boolean>"
+   },
+   {
+    "origin": "<string>",
+    "dest": "<string>",
+    "originMetroGroup": "<string>",
+    "destMetroGroup": "<string>",
+    "direction": "<string>",
+    "date": "<string>",
+    "isOriginMetro": "<boolean>",
+    "isDestMetro": "<boolean>"
+   }
+  ],
+  "paxInfo": {
+   "adultCount": "<integer>",
+   "infantCount": "<integer>",
+   "childCount": "<integer>"
+  }
+ },
+ "selectedFlights": [
+  {
+   "key": "<string>",
+   "lfId": "<string>",
+   "flightGroupID": "<string>",
+   "departureDate": "<string>",
+   "isAvailabile": "<boolean>",
+   "isInterline": "<boolean>",
+   "isCodeShare": "<boolean>",
+   "stops": [
+    {
+     "stopLocation": "<string>",
+     "layOverTime": "<string>",
+     "notConnection": "<boolean>"
+    },
+    {
+     "stopLocation": "<string>",
+     "layOverTime": "<string>",
+     "notConnection": "<boolean>"
+    }
+   ],
+   "totalDuration": "<string>",
+   "waitingTime": "<string>",
+   "departureTime": "<string>",
+   "arrivalTime": "<string>",
+   "selectedFare": {
+    "route": "<string>",
+    "lfId": "<string>",
+    "fareTypeID": "<string>",
+    "fareTypeName": "<string>",
+    "includes": [
+     {
+      "type": "string",
+      "default": "<string>"
+     },
+     {
+      "type": "string",
+      "default": "<string>"
+     }
+    ],
+    "pfIds": [
+     {
+      "pfId": "<string>",
+      "date": "<string>",
+      "cabin": "<string>",
+      "fareClass": "<string>"
+     },
+     {
+      "pfId": "<string>",
+      "date": "<string>",
+      "cabin": "<string>",
+      "fareClass": "<string>"
+     }
+    ],
+    "cabin": "<string>",
+    "secureHash": "<string>",
+    "fareCarrier": "<string>",
+    "ticketDesignator": "<string>",
+    "hashCode": "<string>",
+    "fare": {
+     "baseFare": "<string>",
+     "tax": "<string>",
+     "changeCost": "<string>",
+     "discount": "<string>",
+     "totalFare": "<string>",
+     "currencyCode": "<string>",
+     "isPromoFare": "<boolean>",
+     "isPromoCodeApplied": "<boolean>",
+     "solutionId": "<string>",
+     "isStopOverFare": "<boolean>",
+     "combinables": [
+      "<string>",
+      "<string>"
+     ]
+    },
+    "fareInformation": {
+     "adultFares": [
+      {
+       "adultFarePerPax": "<string>",
+       "baseAdultFarePerPax": "<string>",
+       "changeCost": "<string>",
+       "fareId": "<string>",
+       "fareBasisCode": "<string>",
+       "fareClass": "<string>",
+       "fareAmtNoTaxes": "<string>",
+       "taxPerPax": "<string>",
+       "discountPerPax": "<string>",
+       "paxCount": "<integer>",
+       "applicableTaxes": [
+        {
+         "amount": "<string>",
+         "taxCode": "<string>",
+         "taxId": "<string>"
+        },
+        {
+         "amount": "<string>",
+         "taxCode": "<string>",
+         "taxId": "<string>"
+        }
+       ],
+       "includedExtas": [
+        {
+         "type": "<string>",
+         "code": "<string>",
+         "value": "<string>"
+        },
+        {
+         "type": "<string>",
+         "code": "<string>",
+         "value": "<string>"
+        }
+       ],
+       "pointsEarned": {
+        "baseRewardPoints": "<string>",
+        "bonusRewardPoints": "<string>",
+        "baseTierPoints": "<string>",
+        "bonusTierPoints": "<string>"
+       },
+       "ruleName": "<string>",
+       "ruleValue": "<string>"
+      },
+      {
+       "adultFarePerPax": "<string>",
+       "baseAdultFarePerPax": "<string>",
+       "changeCost": "<string>",
+       "fareId": "<string>",
+       "fareBasisCode": "<string>",
+       "fareClass": "<string>",
+       "fareAmtNoTaxes": "<string>",
+       "taxPerPax": "<string>",
+       "discountPerPax": "<string>",
+       "paxCount": "<integer>",
+       "applicableTaxes": [
+        {
+         "amount": "<string>",
+         "taxCode": "<string>",
+         "taxId": "<string>"
+        },
+        {
+         "amount": "<string>",
+         "taxCode": "<string>",
+         "taxId": "<string>"
+        }
+       ],
+       "includedExtas": [
+        {
+         "type": "<string>",
+         "code": "<string>",
+         "value": "<string>"
+        },
+        {
+         "type": "<string>",
+         "code": "<string>",
+         "value": "<string>"
+        }
+       ],
+       "pointsEarned": {
+        "baseRewardPoints": "<string>",
+        "bonusRewardPoints": "<string>",
+        "baseTierPoints": "<string>",
+        "bonusTierPoints": "<string>"
+       },
+       "ruleName": "<string>",
+       "ruleValue": "<string>"
+      }
+     ],
+     "childFares": [
+      {
+       "fareId": "<string>",
+       "fareBasisCode": "<string>",
+       "fareClass": "<string>",
+       "childFarePerPax": "<string>",
+       "baseChildFarePerPax": "<string>",
+       "changeCost": "<string>",
+       "taxPerPax": "<string>",
+       "discountPerPax": "<string>",
+       "paxCount": "<integer>",
+       "applicableTaxes": [
+        {
+         "amount": "<string>",
+         "taxCode": "<string>",
+         "taxId": "<string>"
+        },
+        {
+         "amount": "<string>",
+         "taxCode": "<string>",
+         "taxId": "<string>"
+        }
+       ],
+       "includedExtas": [
+        {
+         "type": "<string>",
+         "code": "<string>",
+         "value": "<string>"
+        },
+        {
+         "type": "<string>",
+         "code": "<string>",
+         "value": "<string>"
+        }
+       ],
+       "ruleName": "<string>",
+       "ruleValue": "<string>"
+      },
+      {
+       "fareId": "<string>",
+       "fareBasisCode": "<string>",
+       "fareClass": "<string>",
+       "childFarePerPax": "<string>",
+       "baseChildFarePerPax": "<string>",
+       "changeCost": "<string>",
+       "taxPerPax": "<string>",
+       "discountPerPax": "<string>",
+       "paxCount": "<integer>",
+       "applicableTaxes": [
+        {
+         "amount": "<string>",
+         "taxCode": "<string>",
+         "taxId": "<string>"
+        },
+        {
+         "amount": "<string>",
+         "taxCode": "<string>",
+         "taxId": "<string>"
+        }
+       ],
+       "includedExtas": [
+        {
+         "type": "<string>",
+         "code": "<string>",
+         "value": "<string>"
+        },
+        {
+         "type": "<string>",
+         "code": "<string>",
+         "value": "<string>"
+        }
+       ],
+       "ruleName": "<string>",
+       "ruleValue": "<string>"
+      }
+     ],
+     "infantFares": [
+      {
+       "baseInfantFarePerPax": "<string>",
+       "infantFarePerPax": "<string>",
+       "changeCost": "<string>",
+       "fareBasisCode": "<string>",
+       "fareClass": "<string>",
+       "fareId": "<string>",
+       "taxPerPax": "<string>",
+       "discountPerPax": "<string>",
+       "paxCount": "<integer>",
+       "applicableTaxes": [
+        {
+         "amount": "<string>",
+         "taxCode": "<string>",
+         "taxId": "<string>"
+        },
+        {
+         "amount": "<string>",
+         "taxCode": "<string>",
+         "taxId": "<string>"
+        }
+       ],
+       "includedExtas": [
+        {
+         "type": "<string>",
+         "code": "<string>",
+         "value": "<string>"
+        },
+        {
+         "type": "<string>",
+         "code": "<string>",
+         "value": "<string>"
+        }
+       ],
+       "ruleName": "<string>",
+       "ruleValue": "<string>"
+      },
+      {
+       "baseInfantFarePerPax": "<string>",
+       "infantFarePerPax": "<string>",
+       "changeCost": "<string>",
+       "fareBasisCode": "<string>",
+       "fareClass": "<string>",
+       "fareId": "<string>",
+       "taxPerPax": "<string>",
+       "discountPerPax": "<string>",
+       "paxCount": "<integer>",
+       "applicableTaxes": [
+        {
+         "amount": "<string>",
+         "taxCode": "<string>",
+         "taxId": "<string>"
+        },
+        {
+         "amount": "<string>",
+         "taxCode": "<string>",
+         "taxId": "<string>"
+        }
+       ],
+       "includedExtas": [
+        {
+         "type": "<string>",
+         "code": "<string>",
+         "value": "<string>"
+        },
+        {
+         "type": "<string>",
+         "code": "<string>",
+         "value": "<string>"
+        }
+       ],
+       "ruleName": "<string>",
+       "ruleValue": "<string>"
+      }
+     ]
+    },
+    "seatsLeft": "<integer>",
+    "isSoldOut": "<boolean>",
+    "containsCircularFlight": "<boolean>",
+    "containsConnectionFlight": "<boolean>"
+   },
+   "selectedBaggageQuotes": [
+    {
+     "secureHash": "<string>",
+     "passengerId": "<string>",
+     "weight": "<integer>",
+     "purchasedWeight": "<integer>",
+     "serviceCategoryID": "<integer>",
+     "codeType": "<string>",
+     "amount": "<string>",
+     "quantityAvailable": "<integer>",
+     "isIncluded": "<boolean>",
+     "diagnosticID": "<string>",
+     "serviceID": "<integer>",
+     "points": "<object>"
+    },
+    {
+     "secureHash": "<string>",
+     "passengerId": "<string>",
+     "weight": "<integer>",
+     "purchasedWeight": "<integer>",
+     "serviceCategoryID": "<integer>",
+     "codeType": "<string>",
+     "amount": "<string>",
+     "quantityAvailable": "<integer>",
+     "isIncluded": "<boolean>",
+     "diagnosticID": "<string>",
+     "serviceID": "<integer>",
+     "points": "<object>"
+    }
+   ],
+   "selectedIFEQuotes": [
+    {
+     "secureHash": "<string>",
+     "passengerId": "<string>",
+     "logicalFlightId": "<string>",
+     "physicalFlightId": "<string>",
+     "serviceCategoryID": "<integer>",
+     "codeType": "<string>",
+     "amount": "<string>",
+     "quantityAvailable": "<integer>",
+     "isIncluded": "<boolean>",
+     "diagnosticID": "<string>",
+     "serviceID": "<integer>",
+     "points": "<object>"
+    },
+    {
+     "secureHash": "<string>",
+     "passengerId": "<string>",
+     "logicalFlightId": "<string>",
+     "physicalFlightId": "<string>",
+     "serviceCategoryID": "<integer>",
+     "codeType": "<string>",
+     "amount": "<string>",
+     "quantityAvailable": "<integer>",
+     "isIncluded": "<boolean>",
+     "diagnosticID": "<string>",
+     "serviceID": "<integer>",
+     "points": "<object>"
+    }
+   ],
+   "selectedMealQuotes": [
+    {
+     "passengerId": "<string>",
+     "secureHash": "<string>",
+     "serviceCategoryID": "<integer>",
+     "codeType": "<string>",
+     "amount": "<string>",
+     "quantityAvailable": "<integer>",
+     "mealText": "<string>",
+     "isIncluded": "<boolean>",
+     "serviceID": "<integer>",
+     "diagnosticID": "<string>",
+     "logicalFlightId": "<string>",
+     "physicalFlightId": "<string>",
+     "points": "<object>"
+    },
+    {
+     "passengerId": "<string>",
+     "secureHash": "<string>",
+     "serviceCategoryID": "<integer>",
+     "codeType": "<string>",
+     "amount": "<string>",
+     "quantityAvailable": "<integer>",
+     "mealText": "<string>",
+     "isIncluded": "<boolean>",
+     "serviceID": "<integer>",
+     "diagnosticID": "<string>",
+     "logicalFlightId": "<string>",
+     "physicalFlightId": "<string>",
+     "points": "<object>"
+    }
+   ],
+   "selectedSeatQuotes": [
+    {
+     "legId": "<string>",
+     "passengerId": "<string>",
+     "secureHash": "<string>",
+     "row": "<integer>",
+     "seat": "<string>",
+     "serviceCategoryID": "<string>",
+     "isAvailable": "<boolean>",
+     "codeType": "<string>",
+     "amount": "<string>",
+     "isRestrictedSeat": "<boolean>",
+     "diagnosticID": "<string>",
+     "isWithWheelChair": "<boolean>",
+     "points": "<object>"
+    },
+    {
+     "legId": "<string>",
+     "passengerId": "<string>",
+     "secureHash": "<string>",
+     "row": "<integer>",
+     "seat": "<string>",
+     "serviceCategoryID": "<string>",
+     "isAvailable": "<boolean>",
+     "codeType": "<string>",
+     "amount": "<string>",
+     "isRestrictedSeat": "<boolean>",
+     "diagnosticID": "<string>",
+     "isWithWheelChair": "<boolean>",
+     "points": "<object>"
+    }
+   ],
+   "legs": [
+    {
+     "departureDate": "<string>",
+     "departureTime": "<string>",
+     "arrivalDate": "<string>",
+     "hasFreeMeals": "<boolean>",
+     "arrivalTime": "<string>",
+     "flightDuration": "<string>",
+     "pfId": "<string>",
+     "flightNumber": "<string>",
+     "isCircularNextLeg": "<boolean>",
+     "origin": "<string>",
+     "destination": "<string>",
+     "originMetroGroup": "<string>",
+     "destinationMetroGroup": "<string>",
+     "operatingCarrier": "<string>",
+     "marketingCarrier": "<string>",
+     "marketingFlightNum": "<string>",
+     "operatingFlightNum": "<string>",
+     "fromTerminal": "<string>",
+     "toTerminal": "<string>",
+     "selectedSeatQuotes": [
+      {
+       "passangerId": "<string>",
+       "secureHash": "<string>",
+       "segmentId": "<string>",
+       "legId": "<string>",
+       "categoryId": "<string>",
+       "codeType": "<string>",
+       "currencyCode": "<string>",
+       "flxDignoticId": "<string>",
+       "serviceId": "<string>",
+       "amount": "<double>",
+       "row": "<integer>",
+       "seat": "<string>",
+       "seatHeldId": "<integer>"
+      },
+      {
+       "passangerId": "<string>",
+       "secureHash": "<string>",
+       "segmentId": "<string>",
+       "legId": "<string>",
+       "categoryId": "<string>",
+       "codeType": "<string>",
+       "currencyCode": "<string>",
+       "flxDignoticId": "<string>",
+       "serviceId": "<string>",
+       "amount": "<double>",
+       "row": "<integer>",
+       "seat": "<string>",
+       "seatHeldId": "<integer>"
+      }
+     ],
+     "isBusRoute": "<boolean>",
+     "equipmentType": "<string>"
+    },
+    {
+     "departureDate": "<string>",
+     "departureTime": "<string>",
+     "arrivalDate": "<string>",
+     "hasFreeMeals": "<boolean>",
+     "arrivalTime": "<string>",
+     "flightDuration": "<string>",
+     "pfId": "<string>",
+     "flightNumber": "<string>",
+     "isCircularNextLeg": "<boolean>",
+     "origin": "<string>",
+     "destination": "<string>",
+     "originMetroGroup": "<string>",
+     "destinationMetroGroup": "<string>",
+     "operatingCarrier": "<string>",
+     "marketingCarrier": "<string>",
+     "marketingFlightNum": "<string>",
+     "operatingFlightNum": "<string>",
+     "fromTerminal": "<string>",
+     "toTerminal": "<string>",
+     "selectedSeatQuotes": [
+      {
+       "passangerId": "<string>",
+       "secureHash": "<string>",
+       "segmentId": "<string>",
+       "legId": "<string>",
+       "categoryId": "<string>",
+       "codeType": "<string>",
+       "currencyCode": "<string>",
+       "flxDignoticId": "<string>",
+       "serviceId": "<string>",
+       "amount": "<double>",
+       "row": "<integer>",
+       "seat": "<string>",
+       "seatHeldId": "<integer>"
+      },
+      {
+       "passangerId": "<string>",
+       "secureHash": "<string>",
+       "segmentId": "<string>",
+       "legId": "<string>",
+       "categoryId": "<string>",
+       "codeType": "<string>",
+       "currencyCode": "<string>",
+       "flxDignoticId": "<string>",
+       "serviceId": "<string>",
+       "amount": "<double>",
+       "row": "<integer>",
+       "seat": "<string>",
+       "seatHeldId": "<integer>"
+      }
+     ],
+     "isBusRoute": "<boolean>",
+     "equipmentType": "<string>"
+    }
+   ],
+   "disruptedFlight": {
+    "disruptionStatus": "<string>",
+    "isCartAllowed": "<boolean>",
+    "isRefundAllowed": "<boolean>",
+    "isAcceptAllowed": "<boolean>",
+    "isRejectAllowed": "<boolean>",
+    "acceptanceFlow": "<string>",
+    "message": [
+     {
+      "cmsKey": "<string>",
+      "defaultMessage": "<string>",
+      "displayLevel": "<string>",
+      "canContinue": "<boolean>",
+      "pnr": "<string>",
+      "lstExtraProperties": [
+       {
+        "key": "<string>",
+        "lfId": "<string>",
+        "value": "<string>",
+        "canContinue": "<boolean>",
+        "remarks": "<string>"
+       },
+       {
+        "key": "<string>",
+        "lfId": "<string>",
+        "value": "<string>",
+        "canContinue": "<boolean>",
+        "remarks": "<string>"
+       }
+      ]
+     },
+     {
+      "cmsKey": "<string>",
+      "defaultMessage": "<string>",
+      "displayLevel": "<string>",
+      "canContinue": "<boolean>",
+      "pnr": "<string>",
+      "lstExtraProperties": [
+       {
+        "key": "<string>",
+        "lfId": "<string>",
+        "value": "<string>",
+        "canContinue": "<boolean>",
+        "remarks": "<string>"
+       },
+       {
+        "key": "<string>",
+        "lfId": "<string>",
+        "value": "<string>",
+        "canContinue": "<boolean>",
+        "remarks": "<string>"
+       }
+      ]
+     }
+    ],
+    "flightInfo": {
+     "key": "<string>",
+     "lfid": "<integer>",
+     "origin": "<string>",
+     "destination": "<string>",
+     "departureDate": "<dateTime>",
+     "arrivalDate": "<dateTime>",
+     "flightNumber": [
+      "<string>",
+      "<string>"
+     ],
+     "stops": [
+      {
+       "stopLocation": "<string>",
+       "layOverTime": "<string>",
+       "notConnection": "<boolean>"
+      },
+      {
+       "stopLocation": "<string>",
+       "layOverTime": "<string>",
+       "notConnection": "<boolean>"
+      }
+     ],
+     "totalDuration": "<string>",
+     "legs": [
+      {
+       "departureDate": "<string>",
+       "departureTime": "<string>",
+       "arrivalDate": "<string>",
+       "hasFreeMeals": "<boolean>",
+       "arrivalTime": "<string>",
+       "flightDuration": "<string>",
+       "pfId": "<string>",
+       "flightNumber": "<string>",
+       "isCircularNextLeg": "<boolean>",
+       "origin": "<string>",
+       "destination": "<string>",
+       "originMetroGroup": "<string>",
+       "destinationMetroGroup": "<string>",
+       "operatingCarrier": "<string>",
+       "marketingCarrier": "<string>",
+       "marketingFlightNum": "<string>",
+       "operatingFlightNum": "<string>",
+       "fromTerminal": "<string>",
+       "toTerminal": "<string>",
+       "selectedSeatQuotes": [
+        {
+         "passangerId": "<string>",
+         "secureHash": "<string>",
+         "segmentId": "<string>",
+         "legId": "<string>",
+         "categoryId": "<string>",
+         "codeType": "<string>",
+         "currencyCode": "<string>",
+         "flxDignoticId": "<string>",
+         "serviceId": "<string>",
+         "amount": "<double>",
+         "row": "<integer>",
+         "seat": "<string>",
+         "seatHeldId": "<integer>"
+        },
+        {
+         "passangerId": "<string>",
+         "secureHash": "<string>",
+         "segmentId": "<string>",
+         "legId": "<string>",
+         "categoryId": "<string>",
+         "codeType": "<string>",
+         "currencyCode": "<string>",
+         "flxDignoticId": "<string>",
+         "serviceId": "<string>",
+         "amount": "<double>",
+         "row": "<integer>",
+         "seat": "<string>",
+         "seatHeldId": "<integer>"
+        }
+       ],
+       "isBusRoute": "<boolean>",
+       "equipmentType": "<string>"
+      },
+      {
+       "departureDate": "<string>",
+       "departureTime": "<string>",
+       "arrivalDate": "<string>",
+       "hasFreeMeals": "<boolean>",
+       "arrivalTime": "<string>",
+       "flightDuration": "<string>",
+       "pfId": "<string>",
+       "flightNumber": "<string>",
+       "isCircularNextLeg": "<boolean>",
+       "origin": "<string>",
+       "destination": "<string>",
+       "originMetroGroup": "<string>",
+       "destinationMetroGroup": "<string>",
+       "operatingCarrier": "<string>",
+       "marketingCarrier": "<string>",
+       "marketingFlightNum": "<string>",
+       "operatingFlightNum": "<string>",
+       "fromTerminal": "<string>",
+       "toTerminal": "<string>",
+       "selectedSeatQuotes": [
+        {
+         "passangerId": "<string>",
+         "secureHash": "<string>",
+         "segmentId": "<string>",
+         "legId": "<string>",
+         "categoryId": "<string>",
+         "codeType": "<string>",
+         "currencyCode": "<string>",
+         "flxDignoticId": "<string>",
+         "serviceId": "<string>",
+         "amount": "<double>",
+         "row": "<integer>",
+         "seat": "<string>",
+         "seatHeldId": "<integer>"
+        },
+        {
+         "passangerId": "<string>",
+         "secureHash": "<string>",
+         "segmentId": "<string>",
+         "legId": "<string>",
+         "categoryId": "<string>",
+         "codeType": "<string>",
+         "currencyCode": "<string>",
+         "flxDignoticId": "<string>",
+         "serviceId": "<string>",
+         "amount": "<double>",
+         "row": "<integer>",
+         "seat": "<string>",
+         "seatHeldId": "<integer>"
+        }
+       ],
+       "isBusRoute": "<boolean>",
+       "equipmentType": "<string>"
+      }
+     ],
+     "fareTypeName": "<string>",
+     "isMetro": "<boolean>"
+    },
+    "reaccomFlightKey": "<string>",
+    "secureHash": "<string>",
+    "adults": "<integer>",
+    "children": "<integer>",
+    "infant": "<integer>",
+    "cabin": "<string>",
+    "windowStartDate": "<string>",
+    "windowEndDate": "<string>"
+   }
+  },
+  {
+   "key": "<string>",
+   "lfId": "<string>",
+   "flightGroupID": "<string>",
+   "departureDate": "<string>",
+   "isAvailabile": "<boolean>",
+   "isInterline": "<boolean>",
+   "isCodeShare": "<boolean>",
+   "stops": [
+    {
+     "stopLocation": "<string>",
+     "layOverTime": "<string>",
+     "notConnection": "<boolean>"
+    },
+    {
+     "stopLocation": "<string>",
+     "layOverTime": "<string>",
+     "notConnection": "<boolean>"
+    }
+   ],
+   "totalDuration": "<string>",
+   "waitingTime": "<string>",
+   "departureTime": "<string>",
+   "arrivalTime": "<string>",
+   "selectedFare": {
+    "route": "<string>",
+    "lfId": "<string>",
+    "fareTypeID": "<string>",
+    "fareTypeName": "<string>",
+    "includes": [
+     {
+      "type": "string",
+      "default": "<string>"
+     },
+     {
+      "type": "string",
+      "default": "<string>"
+     }
+    ],
+    "pfIds": [
+     {
+      "pfId": "<string>",
+      "date": "<string>",
+      "cabin": "<string>",
+      "fareClass": "<string>"
+     },
+     {
+      "pfId": "<string>",
+      "date": "<string>",
+      "cabin": "<string>",
+      "fareClass": "<string>"
+     }
+    ],
+    "cabin": "<string>",
+    "secureHash": "<string>",
+    "fareCarrier": "<string>",
+    "ticketDesignator": "<string>",
+    "hashCode": "<string>",
+    "fare": {
+     "baseFare": "<string>",
+     "tax": "<string>",
+     "changeCost": "<string>",
+     "discount": "<string>",
+     "totalFare": "<string>",
+     "currencyCode": "<string>",
+     "isPromoFare": "<boolean>",
+     "isPromoCodeApplied": "<boolean>",
+     "solutionId": "<string>",
+     "isStopOverFare": "<boolean>",
+     "combinables": [
+      "<string>",
+      "<string>"
+     ]
+    },
+    "fareInformation": {
+     "adultFares": [
+      {
+       "adultFarePerPax": "<string>",
+       "baseAdultFarePerPax": "<string>",
+       "changeCost": "<string>",
+       "fareId": "<string>",
+       "fareBasisCode": "<string>",
+       "fareClass": "<string>",
+       "fareAmtNoTaxes": "<string>",
+       "taxPerPax": "<string>",
+       "discountPerPax": "<string>",
+       "paxCount": "<integer>",
+       "applicableTaxes": [
+        {
+         "amount": "<string>",
+         "taxCode": "<string>",
+         "taxId": "<string>"
+        },
+        {
+         "amount": "<string>",
+         "taxCode": "<string>",
+         "taxId": "<string>"
+        }
+       ],
+       "includedExtas": [
+        {
+         "type": "<string>",
+         "code": "<string>",
+         "value": "<string>"
+        },
+        {
+         "type": "<string>",
+         "code": "<string>",
+         "value": "<string>"
+        }
+       ],
+       "pointsEarned": {
+        "baseRewardPoints": "<string>",
+        "bonusRewardPoints": "<string>",
+        "baseTierPoints": "<string>",
+        "bonusTierPoints": "<string>"
+       },
+       "ruleName": "<string>",
+       "ruleValue": "<string>"
+      },
+      {
+       "adultFarePerPax": "<string>",
+       "baseAdultFarePerPax": "<string>",
+       "changeCost": "<string>",
+       "fareId": "<string>",
+       "fareBasisCode": "<string>",
+       "fareClass": "<string>",
+       "fareAmtNoTaxes": "<string>",
+       "taxPerPax": "<string>",
+       "discountPerPax": "<string>",
+       "paxCount": "<integer>",
+       "applicableTaxes": [
+        {
+         "amount": "<string>",
+         "taxCode": "<string>",
+         "taxId": "<string>"
+        },
+        {
+         "amount": "<string>",
+         "taxCode": "<string>",
+         "taxId": "<string>"
+        }
+       ],
+       "includedExtas": [
+        {
+         "type": "<string>",
+         "code": "<string>",
+         "value": "<string>"
+        },
+        {
+         "type": "<string>",
+         "code": "<string>",
+         "value": "<string>"
+        }
+       ],
+       "pointsEarned": {
+        "baseRewardPoints": "<string>",
+        "bonusRewardPoints": "<string>",
+        "baseTierPoints": "<string>",
+        "bonusTierPoints": "<string>"
+       },
+       "ruleName": "<string>",
+       "ruleValue": "<string>"
+      }
+     ],
+     "childFares": [
+      {
+       "fareId": "<string>",
+       "fareBasisCode": "<string>",
+       "fareClass": "<string>",
+       "childFarePerPax": "<string>",
+       "baseChildFarePerPax": "<string>",
+       "changeCost": "<string>",
+       "taxPerPax": "<string>",
+       "discountPerPax": "<string>",
+       "paxCount": "<integer>",
+       "applicableTaxes": [
+        {
+         "amount": "<string>",
+         "taxCode": "<string>",
+         "taxId": "<string>"
+        },
+        {
+         "amount": "<string>",
+         "taxCode": "<string>",
+         "taxId": "<string>"
+        }
+       ],
+       "includedExtas": [
+        {
+         "type": "<string>",
+         "code": "<string>",
+         "value": "<string>"
+        },
+        {
+         "type": "<string>",
+         "code": "<string>",
+         "value": "<string>"
+        }
+       ],
+       "ruleName": "<string>",
+       "ruleValue": "<string>"
+      },
+      {
+       "fareId": "<string>",
+       "fareBasisCode": "<string>",
+       "fareClass": "<string>",
+       "childFarePerPax": "<string>",
+       "baseChildFarePerPax": "<string>",
+       "changeCost": "<string>",
+       "taxPerPax": "<string>",
+       "discountPerPax": "<string>",
+       "paxCount": "<integer>",
+       "applicableTaxes": [
+        {
+         "amount": "<string>",
+         "taxCode": "<string>",
+         "taxId": "<string>"
+        },
+        {
+         "amount": "<string>",
+         "taxCode": "<string>",
+         "taxId": "<string>"
+        }
+       ],
+       "includedExtas": [
+        {
+         "type": "<string>",
+         "code": "<string>",
+         "value": "<string>"
+        },
+        {
+         "type": "<string>",
+         "code": "<string>",
+         "value": "<string>"
+        }
+       ],
+       "ruleName": "<string>",
+       "ruleValue": "<string>"
+      }
+     ],
+     "infantFares": [
+      {
+       "baseInfantFarePerPax": "<string>",
+       "infantFarePerPax": "<string>",
+       "changeCost": "<string>",
+       "fareBasisCode": "<string>",
+       "fareClass": "<string>",
+       "fareId": "<string>",
+       "taxPerPax": "<string>",
+       "discountPerPax": "<string>",
+       "paxCount": "<integer>",
+       "applicableTaxes": [
+        {
+         "amount": "<string>",
+         "taxCode": "<string>",
+         "taxId": "<string>"
+        },
+        {
+         "amount": "<string>",
+         "taxCode": "<string>",
+         "taxId": "<string>"
+        }
+       ],
+       "includedExtas": [
+        {
+         "type": "<string>",
+         "code": "<string>",
+         "value": "<string>"
+        },
+        {
+         "type": "<string>",
+         "code": "<string>",
+         "value": "<string>"
+        }
+       ],
+       "ruleName": "<string>",
+       "ruleValue": "<string>"
+      },
+      {
+       "baseInfantFarePerPax": "<string>",
+       "infantFarePerPax": "<string>",
+       "changeCost": "<string>",
+       "fareBasisCode": "<string>",
+       "fareClass": "<string>",
+       "fareId": "<string>",
+       "taxPerPax": "<string>",
+       "discountPerPax": "<string>",
+       "paxCount": "<integer>",
+       "applicableTaxes": [
+        {
+         "amount": "<string>",
+         "taxCode": "<string>",
+         "taxId": "<string>"
+        },
+        {
+         "amount": "<string>",
+         "taxCode": "<string>",
+         "taxId": "<string>"
+        }
+       ],
+       "includedExtas": [
+        {
+         "type": "<string>",
+         "code": "<string>",
+         "value": "<string>"
+        },
+        {
+         "type": "<string>",
+         "code": "<string>",
+         "value": "<string>"
+        }
+       ],
+       "ruleName": "<string>",
+       "ruleValue": "<string>"
+      }
+     ]
+    },
+    "seatsLeft": "<integer>",
+    "isSoldOut": "<boolean>",
+    "containsCircularFlight": "<boolean>",
+    "containsConnectionFlight": "<boolean>"
+   },
+   "selectedBaggageQuotes": [
+    {
+     "secureHash": "<string>",
+     "passengerId": "<string>",
+     "weight": "<integer>",
+     "purchasedWeight": "<integer>",
+     "serviceCategoryID": "<integer>",
+     "codeType": "<string>",
+     "amount": "<string>",
+     "quantityAvailable": "<integer>",
+     "isIncluded": "<boolean>",
+     "diagnosticID": "<string>",
+     "serviceID": "<integer>",
+     "points": "<object>"
+    },
+    {
+     "secureHash": "<string>",
+     "passengerId": "<string>",
+     "weight": "<integer>",
+     "purchasedWeight": "<integer>",
+     "serviceCategoryID": "<integer>",
+     "codeType": "<string>",
+     "amount": "<string>",
+     "quantityAvailable": "<integer>",
+     "isIncluded": "<boolean>",
+     "diagnosticID": "<string>",
+     "serviceID": "<integer>",
+     "points": "<object>"
+    }
+   ],
+   "selectedIFEQuotes": [
+    {
+     "secureHash": "<string>",
+     "passengerId": "<string>",
+     "logicalFlightId": "<string>",
+     "physicalFlightId": "<string>",
+     "serviceCategoryID": "<integer>",
+     "codeType": "<string>",
+     "amount": "<string>",
+     "quantityAvailable": "<integer>",
+     "isIncluded": "<boolean>",
+     "diagnosticID": "<string>",
+     "serviceID": "<integer>",
+     "points": "<object>"
+    },
+    {
+     "secureHash": "<string>",
+     "passengerId": "<string>",
+     "logicalFlightId": "<string>",
+     "physicalFlightId": "<string>",
+     "serviceCategoryID": "<integer>",
+     "codeType": "<string>",
+     "amount": "<string>",
+     "quantityAvailable": "<integer>",
+     "isIncluded": "<boolean>",
+     "diagnosticID": "<string>",
+     "serviceID": "<integer>",
+     "points": "<object>"
+    }
+   ],
+   "selectedMealQuotes": [
+    {
+     "passengerId": "<string>",
+     "secureHash": "<string>",
+     "serviceCategoryID": "<integer>",
+     "codeType": "<string>",
+     "amount": "<string>",
+     "quantityAvailable": "<integer>",
+     "mealText": "<string>",
+     "isIncluded": "<boolean>",
+     "serviceID": "<integer>",
+     "diagnosticID": "<string>",
+     "logicalFlightId": "<string>",
+     "physicalFlightId": "<string>",
+     "points": "<object>"
+    },
+    {
+     "passengerId": "<string>",
+     "secureHash": "<string>",
+     "serviceCategoryID": "<integer>",
+     "codeType": "<string>",
+     "amount": "<string>",
+     "quantityAvailable": "<integer>",
+     "mealText": "<string>",
+     "isIncluded": "<boolean>",
+     "serviceID": "<integer>",
+     "diagnosticID": "<string>",
+     "logicalFlightId": "<string>",
+     "physicalFlightId": "<string>",
+     "points": "<object>"
+    }
+   ],
+   "selectedSeatQuotes": [
+    {
+     "legId": "<string>",
+     "passengerId": "<string>",
+     "secureHash": "<string>",
+     "row": "<integer>",
+     "seat": "<string>",
+     "serviceCategoryID": "<string>",
+     "isAvailable": "<boolean>",
+     "codeType": "<string>",
+     "amount": "<string>",
+     "isRestrictedSeat": "<boolean>",
+     "diagnosticID": "<string>",
+     "isWithWheelChair": "<boolean>",
+     "points": "<object>"
+    },
+    {
+     "legId": "<string>",
+     "passengerId": "<string>",
+     "secureHash": "<string>",
+     "row": "<integer>",
+     "seat": "<string>",
+     "serviceCategoryID": "<string>",
+     "isAvailable": "<boolean>",
+     "codeType": "<string>",
+     "amount": "<string>",
+     "isRestrictedSeat": "<boolean>",
+     "diagnosticID": "<string>",
+     "isWithWheelChair": "<boolean>",
+     "points": "<object>"
+    }
+   ],
+   "legs": [
+    {
+     "departureDate": "<string>",
+     "departureTime": "<string>",
+     "arrivalDate": "<string>",
+     "hasFreeMeals": "<boolean>",
+     "arrivalTime": "<string>",
+     "flightDuration": "<string>",
+     "pfId": "<string>",
+     "flightNumber": "<string>",
+     "isCircularNextLeg": "<boolean>",
+     "origin": "<string>",
+     "destination": "<string>",
+     "originMetroGroup": "<string>",
+     "destinationMetroGroup": "<string>",
+     "operatingCarrier": "<string>",
+     "marketingCarrier": "<string>",
+     "marketingFlightNum": "<string>",
+     "operatingFlightNum": "<string>",
+     "fromTerminal": "<string>",
+     "toTerminal": "<string>",
+     "selectedSeatQuotes": [
+      {
+       "passangerId": "<string>",
+       "secureHash": "<string>",
+       "segmentId": "<string>",
+       "legId": "<string>",
+       "categoryId": "<string>",
+       "codeType": "<string>",
+       "currencyCode": "<string>",
+       "flxDignoticId": "<string>",
+       "serviceId": "<string>",
+       "amount": "<double>",
+       "row": "<integer>",
+       "seat": "<string>",
+       "seatHeldId": "<integer>"
+      },
+      {
+       "passangerId": "<string>",
+       "secureHash": "<string>",
+       "segmentId": "<string>",
+       "legId": "<string>",
+       "categoryId": "<string>",
+       "codeType": "<string>",
+       "currencyCode": "<string>",
+       "flxDignoticId": "<string>",
+       "serviceId": "<string>",
+       "amount": "<double>",
+       "row": "<integer>",
+       "seat": "<string>",
+       "seatHeldId": "<integer>"
+      }
+     ],
+     "isBusRoute": "<boolean>",
+     "equipmentType": "<string>"
+    },
+    {
+     "departureDate": "<string>",
+     "departureTime": "<string>",
+     "arrivalDate": "<string>",
+     "hasFreeMeals": "<boolean>",
+     "arrivalTime": "<string>",
+     "flightDuration": "<string>",
+     "pfId": "<string>",
+     "flightNumber": "<string>",
+     "isCircularNextLeg": "<boolean>",
+     "origin": "<string>",
+     "destination": "<string>",
+     "originMetroGroup": "<string>",
+     "destinationMetroGroup": "<string>",
+     "operatingCarrier": "<string>",
+     "marketingCarrier": "<string>",
+     "marketingFlightNum": "<string>",
+     "operatingFlightNum": "<string>",
+     "fromTerminal": "<string>",
+     "toTerminal": "<string>",
+     "selectedSeatQuotes": [
+      {
+       "passangerId": "<string>",
+       "secureHash": "<string>",
+       "segmentId": "<string>",
+       "legId": "<string>",
+       "categoryId": "<string>",
+       "codeType": "<string>",
+       "currencyCode": "<string>",
+       "flxDignoticId": "<string>",
+       "serviceId": "<string>",
+       "amount": "<double>",
+       "row": "<integer>",
+       "seat": "<string>",
+       "seatHeldId": "<integer>"
+      },
+      {
+       "passangerId": "<string>",
+       "secureHash": "<string>",
+       "segmentId": "<string>",
+       "legId": "<string>",
+       "categoryId": "<string>",
+       "codeType": "<string>",
+       "currencyCode": "<string>",
+       "flxDignoticId": "<string>",
+       "serviceId": "<string>",
+       "amount": "<double>",
+       "row": "<integer>",
+       "seat": "<string>",
+       "seatHeldId": "<integer>"
+      }
+     ],
+     "isBusRoute": "<boolean>",
+     "equipmentType": "<string>"
+    }
+   ],
+   "disruptedFlight": {
+    "disruptionStatus": "<string>",
+    "isCartAllowed": "<boolean>",
+    "isRefundAllowed": "<boolean>",
+    "isAcceptAllowed": "<boolean>",
+    "isRejectAllowed": "<boolean>",
+    "acceptanceFlow": "<string>",
+    "message": [
+     {
+      "cmsKey": "<string>",
+      "defaultMessage": "<string>",
+      "displayLevel": "<string>",
+      "canContinue": "<boolean>",
+      "pnr": "<string>",
+      "lstExtraProperties": [
+       {
+        "key": "<string>",
+        "lfId": "<string>",
+        "value": "<string>",
+        "canContinue": "<boolean>",
+        "remarks": "<string>"
+       },
+       {
+        "key": "<string>",
+        "lfId": "<string>",
+        "value": "<string>",
+        "canContinue": "<boolean>",
+        "remarks": "<string>"
+       }
+      ]
+     },
+     {
+      "cmsKey": "<string>",
+      "defaultMessage": "<string>",
+      "displayLevel": "<string>",
+      "canContinue": "<boolean>",
+      "pnr": "<string>",
+      "lstExtraProperties": [
+       {
+        "key": "<string>",
+        "lfId": "<string>",
+        "value": "<string>",
+        "canContinue": "<boolean>",
+        "remarks": "<string>"
+       },
+       {
+        "key": "<string>",
+        "lfId": "<string>",
+        "value": "<string>",
+        "canContinue": "<boolean>",
+        "remarks": "<string>"
+       }
+      ]
+     }
+    ],
+    "flightInfo": {
+     "key": "<string>",
+     "lfid": "<integer>",
+     "origin": "<string>",
+     "destination": "<string>",
+     "departureDate": "<dateTime>",
+     "arrivalDate": "<dateTime>",
+     "flightNumber": [
+      "<string>",
+      "<string>"
+     ],
+     "stops": [
+      {
+       "stopLocation": "<string>",
+       "layOverTime": "<string>",
+       "notConnection": "<boolean>"
+      },
+      {
+       "stopLocation": "<string>",
+       "layOverTime": "<string>",
+       "notConnection": "<boolean>"
+      }
+     ],
+     "totalDuration": "<string>",
+     "legs": [
+      {
+       "departureDate": "<string>",
+       "departureTime": "<string>",
+       "arrivalDate": "<string>",
+       "hasFreeMeals": "<boolean>",
+       "arrivalTime": "<string>",
+       "flightDuration": "<string>",
+       "pfId": "<string>",
+       "flightNumber": "<string>",
+       "isCircularNextLeg": "<boolean>",
+       "origin": "<string>",
+       "destination": "<string>",
+       "originMetroGroup": "<string>",
+       "destinationMetroGroup": "<string>",
+       "operatingCarrier": "<string>",
+       "marketingCarrier": "<string>",
+       "marketingFlightNum": "<string>",
+       "operatingFlightNum": "<string>",
+       "fromTerminal": "<string>",
+       "toTerminal": "<string>",
+       "selectedSeatQuotes": [
+        {
+         "passangerId": "<string>",
+         "secureHash": "<string>",
+         "segmentId": "<string>",
+         "legId": "<string>",
+         "categoryId": "<string>",
+         "codeType": "<string>",
+         "currencyCode": "<string>",
+         "flxDignoticId": "<string>",
+         "serviceId": "<string>",
+         "amount": "<double>",
+         "row": "<integer>",
+         "seat": "<string>",
+         "seatHeldId": "<integer>"
+        },
+        {
+         "passangerId": "<string>",
+         "secureHash": "<string>",
+         "segmentId": "<string>",
+         "legId": "<string>",
+         "categoryId": "<string>",
+         "codeType": "<string>",
+         "currencyCode": "<string>",
+         "flxDignoticId": "<string>",
+         "serviceId": "<string>",
+         "amount": "<double>",
+         "row": "<integer>",
+         "seat": "<string>",
+         "seatHeldId": "<integer>"
+        }
+       ],
+       "isBusRoute": "<boolean>",
+       "equipmentType": "<string>"
+      },
+      {
+       "departureDate": "<string>",
+       "departureTime": "<string>",
+       "arrivalDate": "<string>",
+       "hasFreeMeals": "<boolean>",
+       "arrivalTime": "<string>",
+       "flightDuration": "<string>",
+       "pfId": "<string>",
+       "flightNumber": "<string>",
+       "isCircularNextLeg": "<boolean>",
+       "origin": "<string>",
+       "destination": "<string>",
+       "originMetroGroup": "<string>",
+       "destinationMetroGroup": "<string>",
+       "operatingCarrier": "<string>",
+       "marketingCarrier": "<string>",
+       "marketingFlightNum": "<string>",
+       "operatingFlightNum": "<string>",
+       "fromTerminal": "<string>",
+       "toTerminal": "<string>",
+       "selectedSeatQuotes": [
+        {
+         "passangerId": "<string>",
+         "secureHash": "<string>",
+         "segmentId": "<string>",
+         "legId": "<string>",
+         "categoryId": "<string>",
+         "codeType": "<string>",
+         "currencyCode": "<string>",
+         "flxDignoticId": "<string>",
+         "serviceId": "<string>",
+         "amount": "<double>",
+         "row": "<integer>",
+         "seat": "<string>",
+         "seatHeldId": "<integer>"
+        },
+        {
+         "passangerId": "<string>",
+         "secureHash": "<string>",
+         "segmentId": "<string>",
+         "legId": "<string>",
+         "categoryId": "<string>",
+         "codeType": "<string>",
+         "currencyCode": "<string>",
+         "flxDignoticId": "<string>",
+         "serviceId": "<string>",
+         "amount": "<double>",
+         "row": "<integer>",
+         "seat": "<string>",
+         "seatHeldId": "<integer>"
+        }
+       ],
+       "isBusRoute": "<boolean>",
+       "equipmentType": "<string>"
+      }
+     ],
+     "fareTypeName": "<string>",
+     "isMetro": "<boolean>"
+    },
+    "reaccomFlightKey": "<string>",
+    "secureHash": "<string>",
+    "adults": "<integer>",
+    "children": "<integer>",
+    "infant": "<integer>",
+    "cabin": "<string>",
+    "windowStartDate": "<string>",
+    "windowEndDate": "<string>"
+   }
+  }
+ ],
+ "paymentMethods": [
+  {
+   "methodName": "<string>",
+   "methodCode": "<string>"
+  },
+  {
+   "methodName": "<string>",
+   "methodCode": "<string>"
+  }
+ ],
+ "pnrInformation": {
+  "bookingReference": "<string>",
+  "oaConfirmationNumbers": "<string>",
+  "paymentReference": "<string>",
+  "bookingStatus": "<string>",
+  "bookedOn": "<dateTime>",
+  "paymentOptions": [
+   {
+    "amount": "<string>",
+    "currencyPaid": "<string>",
+    "paymentType": "<string>",
+    "accountNumber": "<string>",
+    "ResExternalPaymentID": "<string>",
+    "payMethod": "<string>"
+   },
+   {
+    "amount": "<string>",
+    "currencyPaid": "<string>",
+    "paymentType": "<string>",
+    "accountNumber": "<string>",
+    "ResExternalPaymentID": "<string>",
+    "payMethod": "<string>"
+   }
+  ],
+  "totalAmountPaid": "<string>",
+  "totalAmountDue": "<string>",
+  "paymentDueDate": "<dateTime>",
+  "payLaterDueDateWithOrigin": "<string>",
+  "currencyCode": "<string>",
+  "checkinAllowed": "<boolean>",
+  "modifyAllowed": "<boolean>",
+  "emailAllowed": "<boolean>",
+  "repeatAllowed": "<boolean>",
+  "cancelAllowed": "<boolean>",
+  "changeDateAllowed": "<boolean>",
+  "cancelSectorAllowed": "<boolean>",
+  "changeExtrasAllowed": "<boolean>",
+  "upgradetoBusinessAllowed": "<boolean>",
+  "printAllowed": "<boolean>",
+  "isToCaptureAPISIsMandatory": "<boolean>",
+  "isGds": "<boolean>",
+  "isInterline": "<boolean>",
+  "isMultiCity": "<boolean>",
+  "isAsynchronous": "<boolean>",
+  "isCodeShare": "<boolean>",
+  "isUnderReview": "<boolean>",
+  "bookingAgent": "<string>",
+  "paymentState": "<string>",
+  "totalPointAmountPaid": "<string>",
+  "totalPointAmountDue": "<string>",
+  "additionalAmountAfterPoint": "<string>",
+  "pointsOnPayment": "<string>",
+  "addPaxAllowed": "<boolean>",
+  "removePaxAllowed": "<boolean>",
+  "isDisrupted": "<boolean>",
+  "infantMincutoff": "<integer>",
+  "alternatePaymentCurrency": "<string>"
+ },
+ "costOfTravel": {
+  "amount": "<string>",
+  "penalty": "<string>",
+  "amountIncludingAdminFee": "<string>",
+  "currencyCode": "<string>",
+  "administrativeFee": "<string>",
+  "selectedSegmentsCostTotals": [
+   {
+    "lfId": "<string>",
+    "flightCost": "<string>",
+    "tax": "<string>",
+    "baggageCost": "<string>",
+    "ifeCost": "<string>",
+    "mealCost": "<string>",
+    "seatCost": "<string>",
+    "insuaranceCost": "<string>",
+    "segmentTotalCurrency": "<string>",
+    "segmentTotalAmount": "<string>"
+   },
+   {
+    "lfId": "<string>",
+    "flightCost": "<string>",
+    "tax": "<string>",
+    "baggageCost": "<string>",
+    "ifeCost": "<string>",
+    "mealCost": "<string>",
+    "seatCost": "<string>",
+    "insuaranceCost": "<string>",
+    "segmentTotalCurrency": "<string>",
+    "segmentTotalAmount": "<string>"
+   }
+  ],
+  "mPesaDetailsConfirm": {
+   "totalPNRAmount": {
+    "amount": "<string>",
+    "currency": "<string>",
+    "exchangeRate": "<string>"
+   },
+   "yourSelection": {
+    "amount": "<string>",
+    "currency": "<string>"
+   },
+   "feeInfos": [
+    {
+     "feeCode": "<string>",
+     "ssrCode": "<string>",
+     "amount": "<string>",
+     "currency": "<string>"
+    },
+    {
+     "feeCode": "<string>",
+     "ssrCode": "<string>",
+     "amount": "<string>",
+     "currency": "<string>"
+    }
+   ],
+   "mPesaServiceStatus": "<boolean>"
+  },
+  "discountAmount": "<string>",
+  "isDiscountAvailable": "<boolean>",
+  "totalTax": "<string>",
+  "totalInsurance": "<string>",
+  "baseAmountForPoints": "<string>"
+ },
+ "carsOffers": {
+  "url": "<string>"
+ },
+ "hotelOffers": {
+  "url": "<string>"
+ },
+ "passengerFareDetails": [
+  {
+   "title": "<string>",
+   "firstName": "<string>",
+   "lastName": "<string>",
+   "passengerType": "<string>",
+   "isPrimaryPassenger": "<boolean>",
+   "passengerOrderId": "<string>",
+   "passengerTypeDesc": "<string>",
+   "memberId": "<string>",
+   "tierName": "<string>",
+   "totalTaxAmount": "<string>",
+   "totalfareAmount": "<string>",
+   "totalSSRAmount": "<string>",
+   "totalAmount": "<string>",
+   "grandTotalAmount": "<string>",
+   "eTicketNumber": "<string>",
+   "passengerFareSplit": [
+    {
+     "class": "<string>",
+     "fareTypeID": "<string>",
+     "farePoint": "<string>",
+     "fareBonus": "<string>",
+     "fareTier": "<string>",
+     "fareTierBonus": "<string>",
+     "fareTierBonusMiles": "<string>",
+     "fareTierBonusTierMiles": "<string>",
+     "fareAmount": "<string>",
+     "subTotalAmount": "<string>",
+     "taxAmount": "<string>",
+     "route": "<string>",
+     "baggageAmount": "<string>",
+     "ifeAmount": "<string>",
+     "mealAmount": "<string>",
+     "seatAmount": "<string>",
+     "insuranceAmount": "<string>",
+     "totalSSRSegAmount": "<string>",
+     "grandSegTotal": "<string>"
+    },
+    {
+     "class": "<string>",
+     "fareTypeID": "<string>",
+     "farePoint": "<string>",
+     "fareBonus": "<string>",
+     "fareTier": "<string>",
+     "fareTierBonus": "<string>",
+     "fareTierBonusMiles": "<string>",
+     "fareTierBonusTierMiles": "<string>",
+     "fareAmount": "<string>",
+     "subTotalAmount": "<string>",
+     "taxAmount": "<string>",
+     "route": "<string>",
+     "baggageAmount": "<string>",
+     "ifeAmount": "<string>",
+     "mealAmount": "<string>",
+     "seatAmount": "<string>",
+     "insuranceAmount": "<string>",
+     "totalSSRSegAmount": "<string>",
+     "grandSegTotal": "<string>"
+    }
+   ]
+  },
+  {
+   "title": "<string>",
+   "firstName": "<string>",
+   "lastName": "<string>",
+   "passengerType": "<string>",
+   "isPrimaryPassenger": "<boolean>",
+   "passengerOrderId": "<string>",
+   "passengerTypeDesc": "<string>",
+   "memberId": "<string>",
+   "tierName": "<string>",
+   "totalTaxAmount": "<string>",
+   "totalfareAmount": "<string>",
+   "totalSSRAmount": "<string>",
+   "totalAmount": "<string>",
+   "grandTotalAmount": "<string>",
+   "eTicketNumber": "<string>",
+   "passengerFareSplit": [
+    {
+     "class": "<string>",
+     "fareTypeID": "<string>",
+     "farePoint": "<string>",
+     "fareBonus": "<string>",
+     "fareTier": "<string>",
+     "fareTierBonus": "<string>",
+     "fareTierBonusMiles": "<string>",
+     "fareTierBonusTierMiles": "<string>",
+     "fareAmount": "<string>",
+     "subTotalAmount": "<string>",
+     "taxAmount": "<string>",
+     "route": "<string>",
+     "baggageAmount": "<string>",
+     "ifeAmount": "<string>",
+     "mealAmount": "<string>",
+     "seatAmount": "<string>",
+     "insuranceAmount": "<string>",
+     "totalSSRSegAmount": "<string>",
+     "grandSegTotal": "<string>"
+    },
+    {
+     "class": "<string>",
+     "fareTypeID": "<string>",
+     "farePoint": "<string>",
+     "fareBonus": "<string>",
+     "fareTier": "<string>",
+     "fareTierBonus": "<string>",
+     "fareTierBonusMiles": "<string>",
+     "fareTierBonusTierMiles": "<string>",
+     "fareAmount": "<string>",
+     "subTotalAmount": "<string>",
+     "taxAmount": "<string>",
+     "route": "<string>",
+     "baggageAmount": "<string>",
+     "ifeAmount": "<string>",
+     "mealAmount": "<string>",
+     "seatAmount": "<string>",
+     "insuranceAmount": "<string>",
+     "totalSSRSegAmount": "<string>",
+     "grandSegTotal": "<string>"
+    }
+   ]
+  }
+ ],
+ "selectedinsuranceQuotes": {
+  "currencyCode": "<string>",
+  "secureHash": "<string>",
+  "codeType": "<string>",
+  "categoryId": "<integer>",
+  "serviceId": "<integer>",
+  "flxDiagnosticID": "<string>",
+  "price": "<string>",
+  "transactionID": "<string>",
+  "droppedInsuranceInfo": [
+   {
+    "passengerId": "<string>",
+    "codeType": "<string>",
+    "oldFlightNumber": "<string>",
+    "oldFlightOrigin": "<string>",
+    "oldFlightDestination": "<string>"
+   },
+   {
+    "passengerId": "<string>",
+    "codeType": "<string>",
+    "oldFlightNumber": "<string>",
+    "oldFlightOrigin": "<string>",
+    "oldFlightDestination": "<string>"
+   }
+  ],
+  "validationMessages": [
+   {
+    "cmsKey": "<string>",
+    "defaultMessage": "<string>",
+    "displayLevel": "<string>"
+   },
+   {
+    "cmsKey": "<string>",
+    "defaultMessage": "<string>",
+    "displayLevel": "<string>"
+   }
+  ]
+ },
+ "frequentFlyerMember": [
+  {
+   "passengerId": "<integer>",
+   "logicalFlightId": "<integer>",
+   "origin": "<string>",
+   "destination": "<string>",
+   "frequentFlyerNumber": "<string>",
+   "tierName": "<string>",
+   "awardedPoints": [
+    {
+     "codeType": "<string>",
+     "ssrtype": "<string>",
+     "basePoints": "<integer>",
+     "tierPoints": "<integer>",
+     "bonusPoints": "<integer>",
+     "bonusTierPoints": "<integer>",
+     "tierBonusMiles": "<integer>",
+     "tierBonusTierMiles": "<integer>",
+     "passengerId": "<integer>",
+     "logicalFlightId": "<integer>"
+    },
+    {
+     "codeType": "<string>",
+     "ssrtype": "<string>",
+     "basePoints": "<integer>",
+     "tierPoints": "<integer>",
+     "bonusPoints": "<integer>",
+     "bonusTierPoints": "<integer>",
+     "tierBonusMiles": "<integer>",
+     "tierBonusTierMiles": "<integer>",
+     "passengerId": "<integer>",
+     "logicalFlightId": "<integer>"
+    }
+   ]
+  },
+  {
+   "passengerId": "<integer>",
+   "logicalFlightId": "<integer>",
+   "origin": "<string>",
+   "destination": "<string>",
+   "frequentFlyerNumber": "<string>",
+   "tierName": "<string>",
+   "awardedPoints": [
+    {
+     "codeType": "<string>",
+     "ssrtype": "<string>",
+     "basePoints": "<integer>",
+     "tierPoints": "<integer>",
+     "bonusPoints": "<integer>",
+     "bonusTierPoints": "<integer>",
+     "tierBonusMiles": "<integer>",
+     "tierBonusTierMiles": "<integer>",
+     "passengerId": "<integer>",
+     "logicalFlightId": "<integer>"
+    },
+    {
+     "codeType": "<string>",
+     "ssrtype": "<string>",
+     "basePoints": "<integer>",
+     "tierPoints": "<integer>",
+     "bonusPoints": "<integer>",
+     "bonusTierPoints": "<integer>",
+     "tierBonusMiles": "<integer>",
+     "tierBonusTierMiles": "<integer>",
+     "passengerId": "<integer>",
+     "logicalFlightId": "<integer>"
+    }
+   ]
+  }
+ ],
+ "transactionStatus": "<string>",
+ "connectingODs": [
+  {
+   "LFID_1": "<string>",
+   "LFID_2": "<string>",
+   "connectionType": "<string>"
+  },
+  {
+   "LFID_1": "<string>",
+   "LFID_2": "<string>",
+   "connectionType": "<string>"
+  }
+ ]
+}

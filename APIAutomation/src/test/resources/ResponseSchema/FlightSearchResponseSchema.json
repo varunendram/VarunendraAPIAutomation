@@ -1,0 +1,3361 @@
+{ "serverDateTimeUTC": "<string>",
+ "sessionDuration": "<string>",
+ "popupTimeout": "<string>",
+ "serverTimeGMT": "<string>",
+ "segments": [
+  {
+   "route": "Varun",
+   "origin": "<string>",
+   "dest": "<string>",
+   "operatingCarrier": "<string>",
+   "direction": "<string>",
+   "lowestAdultFarePerPax": "<string>",
+   "lowestAdultFareTaxSumPerPax": "<string>",
+   "lowestAdultFareNoTaxUnformatted": "<string>",
+   "currencyCode": "<string>",
+   "departureDate": "<string>",
+   "isPromoFare": "<boolean>",
+   "isSoldOut": "<boolean>",
+   "flights": [
+    {
+     "origin": "<string>",
+     "dest": "<string>",
+     "lfId": "<string>",
+     "departureDate": "<string>",
+     "isAvailabile": "<boolean>",
+     "isInterline": "<boolean>",
+     "isCodeShare": "<boolean>",
+     "stops": [
+      {
+       "stopLocation": "<string>",
+       "layOverTime": "<string>",
+       "notConnection": "<boolean>"
+      },
+      {
+       "stopLocation": "<string>",
+       "layOverTime": "<string>",
+       "notConnection": "<boolean>"
+      }
+     ],
+     "totalDuration": "<string>",
+     "departureTime": "<string>",
+     "arrivalTime": "<string>",
+     "fareTypes": [
+      {
+       "route": "<string>",
+       "lfId": "<string>",
+       "fareTypeID": "<string>",
+       "fareTypeName": "<string>",
+       "includes": [
+        {
+         "type": "string",
+         "default": "<string>"
+        },
+        {
+         "type": "string",
+         "default": "<string>"
+        }
+       ],
+       "pfIds": [
+        {
+         "pfId": "<string>",
+         "date": "<string>",
+         "cabin": "<string>",
+         "fareClass": "<string>"
+        },
+        {
+         "pfId": "<string>",
+         "date": "<string>",
+         "cabin": "<string>",
+         "fareClass": "<string>"
+        }
+       ],
+       "cabin": "<string>",
+       "secureHash": "<string>",
+       "fareCarrier": "<string>",
+       "ticketDesignator": "<string>",
+       "hashCode": "<string>",
+       "fare": {
+        "baseFare": "<string>",
+        "tax": "<string>",
+        "changeCost": "<string>",
+        "discount": "<string>",
+        "totalFare": "<string>",
+        "currencyCode": "<string>",
+        "isPromoFare": "<boolean>",
+        "isPromoCodeApplied": "<boolean>",
+        "solutionId": "<string>",
+        "isStopOverFare": "<boolean>",
+        "combinables": [
+         "<string>",
+         "<string>"
+        ]
+       },
+       "fareInformation": {
+        "adultFares": [
+         {
+          "adultFarePerPax": "<string>",
+          "baseAdultFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareAmtNoTaxes": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "pointsEarned": {
+           "baseRewardPoints": "<string>",
+           "bonusRewardPoints": "<string>",
+           "baseTierPoints": "<string>",
+           "bonusTierPoints": "<string>"
+          },
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         },
+         {
+          "adultFarePerPax": "<string>",
+          "baseAdultFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareAmtNoTaxes": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "pointsEarned": {
+           "baseRewardPoints": "<string>",
+           "bonusRewardPoints": "<string>",
+           "baseTierPoints": "<string>",
+           "bonusTierPoints": "<string>"
+          },
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         }
+        ],
+        "childFares": [
+         {
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "childFarePerPax": "<string>",
+          "baseChildFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         },
+         {
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "childFarePerPax": "<string>",
+          "baseChildFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         }
+        ],
+        "infantFares": [
+         {
+          "baseInfantFarePerPax": "<string>",
+          "infantFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareId": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         },
+         {
+          "baseInfantFarePerPax": "<string>",
+          "infantFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareId": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         }
+        ]
+       },
+       "seatsLeft": "<integer>",
+       "isSoldOut": "<boolean>",
+       "containsCircularFlight": "<boolean>",
+       "containsConnectionFlight": "<boolean>"
+      },
+      {
+       "route": "<string>",
+       "lfId": "<string>",
+       "fareTypeID": "<string>",
+       "fareTypeName": "<string>",
+       "includes": [
+        {
+         "type": "string",
+         "default": "<string>"
+        },
+        {
+         "type": "string",
+         "default": "<string>"
+        }
+       ],
+       "pfIds": [
+        {
+         "pfId": "<string>",
+         "date": "<string>",
+         "cabin": "<string>",
+         "fareClass": "<string>"
+        },
+        {
+         "pfId": "<string>",
+         "date": "<string>",
+         "cabin": "<string>",
+         "fareClass": "<string>"
+        }
+       ],
+       "cabin": "<string>",
+       "secureHash": "<string>",
+       "fareCarrier": "<string>",
+       "ticketDesignator": "<string>",
+       "hashCode": "<string>",
+       "fare": {
+        "baseFare": "<string>",
+        "tax": "<string>",
+        "changeCost": "<string>",
+        "discount": "<string>",
+        "totalFare": "<string>",
+        "currencyCode": "<string>",
+        "isPromoFare": "<boolean>",
+        "isPromoCodeApplied": "<boolean>",
+        "solutionId": "<string>",
+        "isStopOverFare": "<boolean>",
+        "combinables": [
+         "<string>",
+         "<string>"
+        ]
+       },
+       "fareInformation": {
+        "adultFares": [
+         {
+          "adultFarePerPax": "<string>",
+          "baseAdultFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareAmtNoTaxes": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "pointsEarned": {
+           "baseRewardPoints": "<string>",
+           "bonusRewardPoints": "<string>",
+           "baseTierPoints": "<string>",
+           "bonusTierPoints": "<string>"
+          },
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         },
+         {
+          "adultFarePerPax": "<string>",
+          "baseAdultFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareAmtNoTaxes": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "pointsEarned": {
+           "baseRewardPoints": "<string>",
+           "bonusRewardPoints": "<string>",
+           "baseTierPoints": "<string>",
+           "bonusTierPoints": "<string>"
+          },
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         }
+        ],
+        "childFares": [
+         {
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "childFarePerPax": "<string>",
+          "baseChildFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         },
+         {
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "childFarePerPax": "<string>",
+          "baseChildFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         }
+        ],
+        "infantFares": [
+         {
+          "baseInfantFarePerPax": "<string>",
+          "infantFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareId": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         },
+         {
+          "baseInfantFarePerPax": "<string>",
+          "infantFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareId": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         }
+        ]
+       },
+       "seatsLeft": "<integer>",
+       "isSoldOut": "<boolean>",
+       "containsCircularFlight": "<boolean>",
+       "containsConnectionFlight": "<boolean>"
+      }
+     ],
+     "legs": [
+      {
+       "departureDate": "<string>",
+       "departureTime": "<string>",
+       "arrivalDate": "<string>",
+       "hasFreeMeals": "<boolean>",
+       "arrivalTime": "<string>",
+       "flightDuration": "<string>",
+       "pfId": "<string>",
+       "flightNumber": "<string>",
+       "isCircularNextLeg": "<boolean>",
+       "origin": "<string>",
+       "destination": "<string>",
+       "originMetroGroup": "<string>",
+       "destinationMetroGroup": "<string>",
+       "operatingCarrier": "<string>",
+       "marketingCarrier": "<string>",
+       "marketingFlightNum": "<string>",
+       "operatingFlightNum": "<string>",
+       "fromTerminal": "<string>",
+       "toTerminal": "<string>",
+       "selectedSeatQuotes": [
+        {
+         "passangerId": "<string>",
+         "secureHash": "<string>",
+         "segmentId": "<string>",
+         "legId": "<string>",
+         "categoryId": "<string>",
+         "codeType": "<string>",
+         "currencyCode": "<string>",
+         "flxDignoticId": "<string>",
+         "serviceId": "<string>",
+         "amount": "<double>",
+         "row": "<integer>",
+         "seat": "<string>",
+         "seatHeldId": "<integer>"
+        },
+        {
+         "passangerId": "<string>",
+         "secureHash": "<string>",
+         "segmentId": "<string>",
+         "legId": "<string>",
+         "categoryId": "<string>",
+         "codeType": "<string>",
+         "currencyCode": "<string>",
+         "flxDignoticId": "<string>",
+         "serviceId": "<string>",
+         "amount": "<double>",
+         "row": "<integer>",
+         "seat": "<string>",
+         "seatHeldId": "<integer>"
+        }
+       ],
+       "isBusRoute": "<boolean>",
+       "equipmentType": "<string>"
+      },
+      {
+       "departureDate": "<string>",
+       "departureTime": "<string>",
+       "arrivalDate": "<string>",
+       "hasFreeMeals": "<boolean>",
+       "arrivalTime": "<string>",
+       "flightDuration": "<string>",
+       "pfId": "<string>",
+       "flightNumber": "<string>",
+       "isCircularNextLeg": "<boolean>",
+       "origin": "<string>",
+       "destination": "<string>",
+       "originMetroGroup": "<string>",
+       "destinationMetroGroup": "<string>",
+       "operatingCarrier": "<string>",
+       "marketingCarrier": "<string>",
+       "marketingFlightNum": "<string>",
+       "operatingFlightNum": "<string>",
+       "fromTerminal": "<string>",
+       "toTerminal": "<string>",
+       "selectedSeatQuotes": [
+        {
+         "passangerId": "<string>",
+         "secureHash": "<string>",
+         "segmentId": "<string>",
+         "legId": "<string>",
+         "categoryId": "<string>",
+         "codeType": "<string>",
+         "currencyCode": "<string>",
+         "flxDignoticId": "<string>",
+         "serviceId": "<string>",
+         "amount": "<double>",
+         "row": "<integer>",
+         "seat": "<string>",
+         "seatHeldId": "<integer>"
+        },
+        {
+         "passangerId": "<string>",
+         "secureHash": "<string>",
+         "segmentId": "<string>",
+         "legId": "<string>",
+         "categoryId": "<string>",
+         "codeType": "<string>",
+         "currencyCode": "<string>",
+         "flxDignoticId": "<string>",
+         "serviceId": "<string>",
+         "amount": "<double>",
+         "row": "<integer>",
+         "seat": "<string>",
+         "seatHeldId": "<integer>"
+        }
+       ],
+       "isBusRoute": "<boolean>",
+       "equipmentType": "<string>"
+      }
+     ],
+     "flightNum": "<string>",
+     "flightGroupID": "<string>"
+    },
+    {
+     "origin": "<string>",
+     "dest": "<string>",
+     "lfId": "<string>",
+     "departureDate": "<string>",
+     "isAvailabile": "<boolean>",
+     "isInterline": "<boolean>",
+     "isCodeShare": "<boolean>",
+     "stops": [
+      {
+       "stopLocation": "<string>",
+       "layOverTime": "<string>",
+       "notConnection": "<boolean>"
+      },
+      {
+       "stopLocation": "<string>",
+       "layOverTime": "<string>",
+       "notConnection": "<boolean>"
+      }
+     ],
+     "totalDuration": "<string>",
+     "departureTime": "<string>",
+     "arrivalTime": "<string>",
+     "fareTypes": [
+      {
+       "route": "<string>",
+       "lfId": "<string>",
+       "fareTypeID": "<string>",
+       "fareTypeName": "<string>",
+       "includes": [
+        {
+         "type": "string",
+         "default": "<string>"
+        },
+        {
+         "type": "string",
+         "default": "<string>"
+        }
+       ],
+       "pfIds": [
+        {
+         "pfId": "<string>",
+         "date": "<string>",
+         "cabin": "<string>",
+         "fareClass": "<string>"
+        },
+        {
+         "pfId": "<string>",
+         "date": "<string>",
+         "cabin": "<string>",
+         "fareClass": "<string>"
+        }
+       ],
+       "cabin": "<string>",
+       "secureHash": "<string>",
+       "fareCarrier": "<string>",
+       "ticketDesignator": "<string>",
+       "hashCode": "<string>",
+       "fare": {
+        "baseFare": "<string>",
+        "tax": "<string>",
+        "changeCost": "<string>",
+        "discount": "<string>",
+        "totalFare": "<string>",
+        "currencyCode": "<string>",
+        "isPromoFare": "<boolean>",
+        "isPromoCodeApplied": "<boolean>",
+        "solutionId": "<string>",
+        "isStopOverFare": "<boolean>",
+        "combinables": [
+         "<string>",
+         "<string>"
+        ]
+       },
+       "fareInformation": {
+        "adultFares": [
+         {
+          "adultFarePerPax": "<string>",
+          "baseAdultFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareAmtNoTaxes": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "pointsEarned": {
+           "baseRewardPoints": "<string>",
+           "bonusRewardPoints": "<string>",
+           "baseTierPoints": "<string>",
+           "bonusTierPoints": "<string>"
+          },
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         },
+         {
+          "adultFarePerPax": "<string>",
+          "baseAdultFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareAmtNoTaxes": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "pointsEarned": {
+           "baseRewardPoints": "<string>",
+           "bonusRewardPoints": "<string>",
+           "baseTierPoints": "<string>",
+           "bonusTierPoints": "<string>"
+          },
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         }
+        ],
+        "childFares": [
+         {
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "childFarePerPax": "<string>",
+          "baseChildFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         },
+         {
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "childFarePerPax": "<string>",
+          "baseChildFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         }
+        ],
+        "infantFares": [
+         {
+          "baseInfantFarePerPax": "<string>",
+          "infantFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareId": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         },
+         {
+          "baseInfantFarePerPax": "<string>",
+          "infantFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareId": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         }
+        ]
+       },
+       "seatsLeft": "<integer>",
+       "isSoldOut": "<boolean>",
+       "containsCircularFlight": "<boolean>",
+       "containsConnectionFlight": "<boolean>"
+      },
+      {
+       "route": "<string>",
+       "lfId": "<string>",
+       "fareTypeID": "<string>",
+       "fareTypeName": "<string>",
+       "includes": [
+        {
+         "type": "string",
+         "default": "<string>"
+        },
+        {
+         "type": "string",
+         "default": "<string>"
+        }
+       ],
+       "pfIds": [
+        {
+         "pfId": "<string>",
+         "date": "<string>",
+         "cabin": "<string>",
+         "fareClass": "<string>"
+        },
+        {
+         "pfId": "<string>",
+         "date": "<string>",
+         "cabin": "<string>",
+         "fareClass": "<string>"
+        }
+       ],
+       "cabin": "<string>",
+       "secureHash": "<string>",
+       "fareCarrier": "<string>",
+       "ticketDesignator": "<string>",
+       "hashCode": "<string>",
+       "fare": {
+        "baseFare": "<string>",
+        "tax": "<string>",
+        "changeCost": "<string>",
+        "discount": "<string>",
+        "totalFare": "<string>",
+        "currencyCode": "<string>",
+        "isPromoFare": "<boolean>",
+        "isPromoCodeApplied": "<boolean>",
+        "solutionId": "<string>",
+        "isStopOverFare": "<boolean>",
+        "combinables": [
+         "<string>",
+         "<string>"
+        ]
+       },
+       "fareInformation": {
+        "adultFares": [
+         {
+          "adultFarePerPax": "<string>",
+          "baseAdultFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareAmtNoTaxes": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "pointsEarned": {
+           "baseRewardPoints": "<string>",
+           "bonusRewardPoints": "<string>",
+           "baseTierPoints": "<string>",
+           "bonusTierPoints": "<string>"
+          },
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         },
+         {
+          "adultFarePerPax": "<string>",
+          "baseAdultFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareAmtNoTaxes": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "pointsEarned": {
+           "baseRewardPoints": "<string>",
+           "bonusRewardPoints": "<string>",
+           "baseTierPoints": "<string>",
+           "bonusTierPoints": "<string>"
+          },
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         }
+        ],
+        "childFares": [
+         {
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "childFarePerPax": "<string>",
+          "baseChildFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         },
+         {
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "childFarePerPax": "<string>",
+          "baseChildFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         }
+        ],
+        "infantFares": [
+         {
+          "baseInfantFarePerPax": "<string>",
+          "infantFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareId": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         },
+         {
+          "baseInfantFarePerPax": "<string>",
+          "infantFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareId": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         }
+        ]
+       },
+       "seatsLeft": "<integer>",
+       "isSoldOut": "<boolean>",
+       "containsCircularFlight": "<boolean>",
+       "containsConnectionFlight": "<boolean>"
+      }
+     ],
+     "legs": [
+      {
+       "departureDate": "<string>",
+       "departureTime": "<string>",
+       "arrivalDate": "<string>",
+       "hasFreeMeals": "<boolean>",
+       "arrivalTime": "<string>",
+       "flightDuration": "<string>",
+       "pfId": "<string>",
+       "flightNumber": "<string>",
+       "isCircularNextLeg": "<boolean>",
+       "origin": "<string>",
+       "destination": "<string>",
+       "originMetroGroup": "<string>",
+       "destinationMetroGroup": "<string>",
+       "operatingCarrier": "<string>",
+       "marketingCarrier": "<string>",
+       "marketingFlightNum": "<string>",
+       "operatingFlightNum": "<string>",
+       "fromTerminal": "<string>",
+       "toTerminal": "<string>",
+       "selectedSeatQuotes": [
+        {
+         "passangerId": "<string>",
+         "secureHash": "<string>",
+         "segmentId": "<string>",
+         "legId": "<string>",
+         "categoryId": "<string>",
+         "codeType": "<string>",
+         "currencyCode": "<string>",
+         "flxDignoticId": "<string>",
+         "serviceId": "<string>",
+         "amount": "<double>",
+         "row": "<integer>",
+         "seat": "<string>",
+         "seatHeldId": "<integer>"
+        },
+        {
+         "passangerId": "<string>",
+         "secureHash": "<string>",
+         "segmentId": "<string>",
+         "legId": "<string>",
+         "categoryId": "<string>",
+         "codeType": "<string>",
+         "currencyCode": "<string>",
+         "flxDignoticId": "<string>",
+         "serviceId": "<string>",
+         "amount": "<double>",
+         "row": "<integer>",
+         "seat": "<string>",
+         "seatHeldId": "<integer>"
+        }
+       ],
+       "isBusRoute": "<boolean>",
+       "equipmentType": "<string>"
+      },
+      {
+       "departureDate": "<string>",
+       "departureTime": "<string>",
+       "arrivalDate": "<string>",
+       "hasFreeMeals": "<boolean>",
+       "arrivalTime": "<string>",
+       "flightDuration": "<string>",
+       "pfId": "<string>",
+       "flightNumber": "<string>",
+       "isCircularNextLeg": "<boolean>",
+       "origin": "<string>",
+       "destination": "<string>",
+       "originMetroGroup": "<string>",
+       "destinationMetroGroup": "<string>",
+       "operatingCarrier": "<string>",
+       "marketingCarrier": "<string>",
+       "marketingFlightNum": "<string>",
+       "operatingFlightNum": "<string>",
+       "fromTerminal": "<string>",
+       "toTerminal": "<string>",
+       "selectedSeatQuotes": [
+        {
+         "passangerId": "<string>",
+         "secureHash": "<string>",
+         "segmentId": "<string>",
+         "legId": "<string>",
+         "categoryId": "<string>",
+         "codeType": "<string>",
+         "currencyCode": "<string>",
+         "flxDignoticId": "<string>",
+         "serviceId": "<string>",
+         "amount": "<double>",
+         "row": "<integer>",
+         "seat": "<string>",
+         "seatHeldId": "<integer>"
+        },
+        {
+         "passangerId": "<string>",
+         "secureHash": "<string>",
+         "segmentId": "<string>",
+         "legId": "<string>",
+         "categoryId": "<string>",
+         "codeType": "<string>",
+         "currencyCode": "<string>",
+         "flxDignoticId": "<string>",
+         "serviceId": "<string>",
+         "amount": "<double>",
+         "row": "<integer>",
+         "seat": "<string>",
+         "seatHeldId": "<integer>"
+        }
+       ],
+       "isBusRoute": "<boolean>",
+       "equipmentType": "<string>"
+      }
+     ],
+     "flightNum": "<string>",
+     "flightGroupID": "<string>"
+    }
+   ],
+   "brands": [
+    {
+     "name": "<string>",
+     "fareTypeID": "<string>",
+     "cabin": "<string>",
+     "includes": [
+      {
+       "type": "string",
+       "default": "<string>"
+      },
+      {
+       "type": "string",
+       "default": "<string>"
+      }
+     ]
+    },
+    {
+     "name": "<string>",
+     "fareTypeID": "<string>",
+     "cabin": "<string>",
+     "includes": [
+      {
+       "type": "string",
+       "default": "<string>"
+      },
+      {
+       "type": "string",
+       "default": "<string>"
+      }
+     ]
+    }
+   ],
+   "notifications": [
+    {
+     "cmsKey": "<string>",
+     "defaultMessage": "<string>",
+     "displayLevel": "<string>",
+     "canContinue": "<boolean>",
+     "pnr": "<string>",
+     "lstExtraProperties": [
+      {
+       "key": "<string>",
+       "lfId": "<string>",
+       "value": "<string>",
+       "canContinue": "<boolean>",
+       "remarks": "<string>"
+      },
+      {
+       "key": "<string>",
+       "lfId": "<string>",
+       "value": "<string>",
+       "canContinue": "<boolean>",
+       "remarks": "<string>"
+      }
+     ]
+    },
+    {
+     "cmsKey": "<string>",
+     "defaultMessage": "<string>",
+     "displayLevel": "<string>",
+     "canContinue": "<boolean>",
+     "pnr": "<string>",
+     "lstExtraProperties": [
+      {
+       "key": "<string>",
+       "lfId": "<string>",
+       "value": "<string>",
+       "canContinue": "<boolean>",
+       "remarks": "<string>"
+      },
+      {
+       "key": "<string>",
+       "lfId": "<string>",
+       "value": "<string>",
+       "canContinue": "<boolean>",
+       "remarks": "<string>"
+      }
+     ]
+    }
+   ],
+   "isInterline": "<boolean>",
+   "isCodeShare": "<boolean>",
+   "lowestAdultFareCabin": "<string>",
+   "lowestFareByCabin": [
+    {
+     "lowestAdultFarePerPax": "<string>",
+     "lowestAdultFareTaxSumPerPax": "<string>",
+     "lowestAdultFareNoTaxUnformatted": "<string>",
+     "currencyCode": "<string>",
+     "lowestAdultFareCabin": "<string>"
+    },
+    {
+     "lowestAdultFarePerPax": "<string>",
+     "lowestAdultFareTaxSumPerPax": "<string>",
+     "lowestAdultFareNoTaxUnformatted": "<string>",
+     "currencyCode": "<string>",
+     "lowestAdultFareCabin": "<string>"
+    }
+   ],
+   "multiDayLowestFareflights": [
+    {
+     "lfId": "<string>",
+     "departureDate": "<string>",
+     "lowestAdultFarePerPax": "<string>",
+     "lowestAdultFareTaxSumPerPax": "<string>",
+     "lowestAdultFareNoTaxUnformatted": "<string>",
+     "isInterline": "<boolean>",
+     "isCodeShare": "<boolean>",
+     "solutionId": "<string>",
+     "combinables": [
+      "<string>",
+      "<string>"
+     ]
+    },
+    {
+     "lfId": "<string>",
+     "departureDate": "<string>",
+     "lowestAdultFarePerPax": "<string>",
+     "lowestAdultFareTaxSumPerPax": "<string>",
+     "lowestAdultFareNoTaxUnformatted": "<string>",
+     "isInterline": "<boolean>",
+     "isCodeShare": "<boolean>",
+     "solutionId": "<string>",
+     "combinables": [
+      "<string>",
+      "<string>"
+     ]
+    }
+   ]
+  },
+  {
+   "route": "<string>",
+   "origin": "<string>",
+   "dest": "<string>",
+   "operatingCarrier": "<string>",
+   "direction": "<string>",
+   "lowestAdultFarePerPax": "<string>",
+   "lowestAdultFareTaxSumPerPax": "<string>",
+   "lowestAdultFareNoTaxUnformatted": "<string>",
+   "currencyCode": "<string>",
+   "departureDate": "<string>",
+   "isPromoFare": "<boolean>",
+   "isSoldOut": "<boolean>",
+   "flights": [
+    {
+     "origin": "<string>",
+     "dest": "<string>",
+     "lfId": "<string>",
+     "departureDate": "<string>",
+     "isAvailabile": "<boolean>",
+     "isInterline": "<boolean>",
+     "isCodeShare": "<boolean>",
+     "stops": [
+      {
+       "stopLocation": "<string>",
+       "layOverTime": "<string>",
+       "notConnection": "<boolean>"
+      },
+      {
+       "stopLocation": "<string>",
+       "layOverTime": "<string>",
+       "notConnection": "<boolean>"
+      }
+     ],
+     "totalDuration": "<string>",
+     "departureTime": "<string>",
+     "arrivalTime": "<string>",
+     "fareTypes": [
+      {
+       "route": "<string>",
+       "lfId": "<string>",
+       "fareTypeID": "<string>",
+       "fareTypeName": "<string>",
+       "includes": [
+        {
+         "type": "string",
+         "default": "<string>"
+        },
+        {
+         "type": "string",
+         "default": "<string>"
+        }
+       ],
+       "pfIds": [
+        {
+         "pfId": "<string>",
+         "date": "<string>",
+         "cabin": "<string>",
+         "fareClass": "<string>"
+        },
+        {
+         "pfId": "<string>",
+         "date": "<string>",
+         "cabin": "<string>",
+         "fareClass": "<string>"
+        }
+       ],
+       "cabin": "<string>",
+       "secureHash": "<string>",
+       "fareCarrier": "<string>",
+       "ticketDesignator": "<string>",
+       "hashCode": "<string>",
+       "fare": {
+        "baseFare": "<string>",
+        "tax": "<string>",
+        "changeCost": "<string>",
+        "discount": "<string>",
+        "totalFare": "<string>",
+        "currencyCode": "<string>",
+        "isPromoFare": "<boolean>",
+        "isPromoCodeApplied": "<boolean>",
+        "solutionId": "<string>",
+        "isStopOverFare": "<boolean>",
+        "combinables": [
+         "<string>",
+         "<string>"
+        ]
+       },
+       "fareInformation": {
+        "adultFares": [
+         {
+          "adultFarePerPax": "<string>",
+          "baseAdultFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareAmtNoTaxes": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "pointsEarned": {
+           "baseRewardPoints": "<string>",
+           "bonusRewardPoints": "<string>",
+           "baseTierPoints": "<string>",
+           "bonusTierPoints": "<string>"
+          },
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         },
+         {
+          "adultFarePerPax": "<string>",
+          "baseAdultFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareAmtNoTaxes": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "pointsEarned": {
+           "baseRewardPoints": "<string>",
+           "bonusRewardPoints": "<string>",
+           "baseTierPoints": "<string>",
+           "bonusTierPoints": "<string>"
+          },
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         }
+        ],
+        "childFares": [
+         {
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "childFarePerPax": "<string>",
+          "baseChildFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         },
+         {
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "childFarePerPax": "<string>",
+          "baseChildFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         }
+        ],
+        "infantFares": [
+         {
+          "baseInfantFarePerPax": "<string>",
+          "infantFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareId": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         },
+         {
+          "baseInfantFarePerPax": "<string>",
+          "infantFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareId": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         }
+        ]
+       },
+       "seatsLeft": "<integer>",
+       "isSoldOut": "<boolean>",
+       "containsCircularFlight": "<boolean>",
+       "containsConnectionFlight": "<boolean>"
+      },
+      {
+       "route": "<string>",
+       "lfId": "<string>",
+       "fareTypeID": "<string>",
+       "fareTypeName": "<string>",
+       "includes": [
+        {
+         "type": "string",
+         "default": "<string>"
+        },
+        {
+         "type": "string",
+         "default": "<string>"
+        }
+       ],
+       "pfIds": [
+        {
+         "pfId": "<string>",
+         "date": "<string>",
+         "cabin": "<string>",
+         "fareClass": "<string>"
+        },
+        {
+         "pfId": "<string>",
+         "date": "<string>",
+         "cabin": "<string>",
+         "fareClass": "<string>"
+        }
+       ],
+       "cabin": "<string>",
+       "secureHash": "<string>",
+       "fareCarrier": "<string>",
+       "ticketDesignator": "<string>",
+       "hashCode": "<string>",
+       "fare": {
+        "baseFare": "<string>",
+        "tax": "<string>",
+        "changeCost": "<string>",
+        "discount": "<string>",
+        "totalFare": "<string>",
+        "currencyCode": "<string>",
+        "isPromoFare": "<boolean>",
+        "isPromoCodeApplied": "<boolean>",
+        "solutionId": "<string>",
+        "isStopOverFare": "<boolean>",
+        "combinables": [
+         "<string>",
+         "<string>"
+        ]
+       },
+       "fareInformation": {
+        "adultFares": [
+         {
+          "adultFarePerPax": "<string>",
+          "baseAdultFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareAmtNoTaxes": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "pointsEarned": {
+           "baseRewardPoints": "<string>",
+           "bonusRewardPoints": "<string>",
+           "baseTierPoints": "<string>",
+           "bonusTierPoints": "<string>"
+          },
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         },
+         {
+          "adultFarePerPax": "<string>",
+          "baseAdultFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareAmtNoTaxes": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "pointsEarned": {
+           "baseRewardPoints": "<string>",
+           "bonusRewardPoints": "<string>",
+           "baseTierPoints": "<string>",
+           "bonusTierPoints": "<string>"
+          },
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         }
+        ],
+        "childFares": [
+         {
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "childFarePerPax": "<string>",
+          "baseChildFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         },
+         {
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "childFarePerPax": "<string>",
+          "baseChildFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         }
+        ],
+        "infantFares": [
+         {
+          "baseInfantFarePerPax": "<string>",
+          "infantFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareId": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         },
+         {
+          "baseInfantFarePerPax": "<string>",
+          "infantFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareId": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         }
+        ]
+       },
+       "seatsLeft": "<integer>",
+       "isSoldOut": "<boolean>",
+       "containsCircularFlight": "<boolean>",
+       "containsConnectionFlight": "<boolean>"
+      }
+     ],
+     "legs": [
+      {
+       "departureDate": "<string>",
+       "departureTime": "<string>",
+       "arrivalDate": "<string>",
+       "hasFreeMeals": "<boolean>",
+       "arrivalTime": "<string>",
+       "flightDuration": "<string>",
+       "pfId": "<string>",
+       "flightNumber": "<string>",
+       "isCircularNextLeg": "<boolean>",
+       "origin": "<string>",
+       "destination": "<string>",
+       "originMetroGroup": "<string>",
+       "destinationMetroGroup": "<string>",
+       "operatingCarrier": "<string>",
+       "marketingCarrier": "<string>",
+       "marketingFlightNum": "<string>",
+       "operatingFlightNum": "<string>",
+       "fromTerminal": "<string>",
+       "toTerminal": "<string>",
+       "selectedSeatQuotes": [
+        {
+         "passangerId": "<string>",
+         "secureHash": "<string>",
+         "segmentId": "<string>",
+         "legId": "<string>",
+         "categoryId": "<string>",
+         "codeType": "<string>",
+         "currencyCode": "<string>",
+         "flxDignoticId": "<string>",
+         "serviceId": "<string>",
+         "amount": "<double>",
+         "row": "<integer>",
+         "seat": "<string>",
+         "seatHeldId": "<integer>"
+        },
+        {
+         "passangerId": "<string>",
+         "secureHash": "<string>",
+         "segmentId": "<string>",
+         "legId": "<string>",
+         "categoryId": "<string>",
+         "codeType": "<string>",
+         "currencyCode": "<string>",
+         "flxDignoticId": "<string>",
+         "serviceId": "<string>",
+         "amount": "<double>",
+         "row": "<integer>",
+         "seat": "<string>",
+         "seatHeldId": "<integer>"
+        }
+       ],
+       "isBusRoute": "<boolean>",
+       "equipmentType": "<string>"
+      },
+      {
+       "departureDate": "<string>",
+       "departureTime": "<string>",
+       "arrivalDate": "<string>",
+       "hasFreeMeals": "<boolean>",
+       "arrivalTime": "<string>",
+       "flightDuration": "<string>",
+       "pfId": "<string>",
+       "flightNumber": "<string>",
+       "isCircularNextLeg": "<boolean>",
+       "origin": "<string>",
+       "destination": "<string>",
+       "originMetroGroup": "<string>",
+       "destinationMetroGroup": "<string>",
+       "operatingCarrier": "<string>",
+       "marketingCarrier": "<string>",
+       "marketingFlightNum": "<string>",
+       "operatingFlightNum": "<string>",
+       "fromTerminal": "<string>",
+       "toTerminal": "<string>",
+       "selectedSeatQuotes": [
+        {
+         "passangerId": "<string>",
+         "secureHash": "<string>",
+         "segmentId": "<string>",
+         "legId": "<string>",
+         "categoryId": "<string>",
+         "codeType": "<string>",
+         "currencyCode": "<string>",
+         "flxDignoticId": "<string>",
+         "serviceId": "<string>",
+         "amount": "<double>",
+         "row": "<integer>",
+         "seat": "<string>",
+         "seatHeldId": "<integer>"
+        },
+        {
+         "passangerId": "<string>",
+         "secureHash": "<string>",
+         "segmentId": "<string>",
+         "legId": "<string>",
+         "categoryId": "<string>",
+         "codeType": "<string>",
+         "currencyCode": "<string>",
+         "flxDignoticId": "<string>",
+         "serviceId": "<string>",
+         "amount": "<double>",
+         "row": "<integer>",
+         "seat": "<string>",
+         "seatHeldId": "<integer>"
+        }
+       ],
+       "isBusRoute": "<boolean>",
+       "equipmentType": "<string>"
+      }
+     ],
+     "flightNum": "<string>",
+     "flightGroupID": "<string>"
+    },
+    {
+     "origin": "<string>",
+     "dest": "<string>",
+     "lfId": "<string>",
+     "departureDate": "<string>",
+     "isAvailabile": "<boolean>",
+     "isInterline": "<boolean>",
+     "isCodeShare": "<boolean>",
+     "stops": [
+      {
+       "stopLocation": "<string>",
+       "layOverTime": "<string>",
+       "notConnection": "<boolean>"
+      },
+      {
+       "stopLocation": "<string>",
+       "layOverTime": "<string>",
+       "notConnection": "<boolean>"
+      }
+     ],
+     "totalDuration": "<string>",
+     "departureTime": "<string>",
+     "arrivalTime": "<string>",
+     "fareTypes": [
+      {
+       "route": "<string>",
+       "lfId": "<string>",
+       "fareTypeID": "<string>",
+       "fareTypeName": "<string>",
+       "includes": [
+        {
+         "type": "string",
+         "default": "<string>"
+        },
+        {
+         "type": "string",
+         "default": "<string>"
+        }
+       ],
+       "pfIds": [
+        {
+         "pfId": "<string>",
+         "date": "<string>",
+         "cabin": "<string>",
+         "fareClass": "<string>"
+        },
+        {
+         "pfId": "<string>",
+         "date": "<string>",
+         "cabin": "<string>",
+         "fareClass": "<string>"
+        }
+       ],
+       "cabin": "<string>",
+       "secureHash": "<string>",
+       "fareCarrier": "<string>",
+       "ticketDesignator": "<string>",
+       "hashCode": "<string>",
+       "fare": {
+        "baseFare": "<string>",
+        "tax": "<string>",
+        "changeCost": "<string>",
+        "discount": "<string>",
+        "totalFare": "<string>",
+        "currencyCode": "<string>",
+        "isPromoFare": "<boolean>",
+        "isPromoCodeApplied": "<boolean>",
+        "solutionId": "<string>",
+        "isStopOverFare": "<boolean>",
+        "combinables": [
+         "<string>",
+         "<string>"
+        ]
+       },
+       "fareInformation": {
+        "adultFares": [
+         {
+          "adultFarePerPax": "<string>",
+          "baseAdultFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareAmtNoTaxes": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "pointsEarned": {
+           "baseRewardPoints": "<string>",
+           "bonusRewardPoints": "<string>",
+           "baseTierPoints": "<string>",
+           "bonusTierPoints": "<string>"
+          },
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         },
+         {
+          "adultFarePerPax": "<string>",
+          "baseAdultFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareAmtNoTaxes": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "pointsEarned": {
+           "baseRewardPoints": "<string>",
+           "bonusRewardPoints": "<string>",
+           "baseTierPoints": "<string>",
+           "bonusTierPoints": "<string>"
+          },
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         }
+        ],
+        "childFares": [
+         {
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "childFarePerPax": "<string>",
+          "baseChildFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         },
+         {
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "childFarePerPax": "<string>",
+          "baseChildFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         }
+        ],
+        "infantFares": [
+         {
+          "baseInfantFarePerPax": "<string>",
+          "infantFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareId": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         },
+         {
+          "baseInfantFarePerPax": "<string>",
+          "infantFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareId": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         }
+        ]
+       },
+       "seatsLeft": "<integer>",
+       "isSoldOut": "<boolean>",
+       "containsCircularFlight": "<boolean>",
+       "containsConnectionFlight": "<boolean>"
+      },
+      {
+       "route": "<string>",
+       "lfId": "<string>",
+       "fareTypeID": "<string>",
+       "fareTypeName": "<string>",
+       "includes": [
+        {
+         "type": "string",
+         "default": "<string>"
+        },
+        {
+         "type": "string",
+         "default": "<string>"
+        }
+       ],
+       "pfIds": [
+        {
+         "pfId": "<string>",
+         "date": "<string>",
+         "cabin": "<string>",
+         "fareClass": "<string>"
+        },
+        {
+         "pfId": "<string>",
+         "date": "<string>",
+         "cabin": "<string>",
+         "fareClass": "<string>"
+        }
+       ],
+       "cabin": "<string>",
+       "secureHash": "<string>",
+       "fareCarrier": "<string>",
+       "ticketDesignator": "<string>",
+       "hashCode": "<string>",
+       "fare": {
+        "baseFare": "<string>",
+        "tax": "<string>",
+        "changeCost": "<string>",
+        "discount": "<string>",
+        "totalFare": "<string>",
+        "currencyCode": "<string>",
+        "isPromoFare": "<boolean>",
+        "isPromoCodeApplied": "<boolean>",
+        "solutionId": "<string>",
+        "isStopOverFare": "<boolean>",
+        "combinables": [
+         "<string>",
+         "<string>"
+        ]
+       },
+       "fareInformation": {
+        "adultFares": [
+         {
+          "adultFarePerPax": "<string>",
+          "baseAdultFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareAmtNoTaxes": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "pointsEarned": {
+           "baseRewardPoints": "<string>",
+           "bonusRewardPoints": "<string>",
+           "baseTierPoints": "<string>",
+           "bonusTierPoints": "<string>"
+          },
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         },
+         {
+          "adultFarePerPax": "<string>",
+          "baseAdultFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareAmtNoTaxes": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "pointsEarned": {
+           "baseRewardPoints": "<string>",
+           "bonusRewardPoints": "<string>",
+           "baseTierPoints": "<string>",
+           "bonusTierPoints": "<string>"
+          },
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         }
+        ],
+        "childFares": [
+         {
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "childFarePerPax": "<string>",
+          "baseChildFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         },
+         {
+          "fareId": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "childFarePerPax": "<string>",
+          "baseChildFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         }
+        ],
+        "infantFares": [
+         {
+          "baseInfantFarePerPax": "<string>",
+          "infantFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareId": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         },
+         {
+          "baseInfantFarePerPax": "<string>",
+          "infantFarePerPax": "<string>",
+          "changeCost": "<string>",
+          "fareBasisCode": "<string>",
+          "fareClass": "<string>",
+          "fareId": "<string>",
+          "taxPerPax": "<string>",
+          "discountPerPax": "<string>",
+          "paxCount": "<integer>",
+          "applicableTaxes": [
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           },
+           {
+            "amount": "<string>",
+            "taxCode": "<string>",
+            "taxId": "<string>"
+           }
+          ],
+          "includedExtas": [
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           },
+           {
+            "type": "<string>",
+            "code": "<string>",
+            "value": "<string>"
+           }
+          ],
+          "ruleName": "<string>",
+          "ruleValue": "<string>"
+         }
+        ]
+       },
+       "seatsLeft": "<integer>",
+       "isSoldOut": "<boolean>",
+       "containsCircularFlight": "<boolean>",
+       "containsConnectionFlight": "<boolean>"
+      }
+     ],
+     "legs": [
+      {
+       "departureDate": "<string>",
+       "departureTime": "<string>",
+       "arrivalDate": "<string>",
+       "hasFreeMeals": "<boolean>",
+       "arrivalTime": "<string>",
+       "flightDuration": "<string>",
+       "pfId": "<string>",
+       "flightNumber": "<string>",
+       "isCircularNextLeg": "<boolean>",
+       "origin": "<string>",
+       "destination": "<string>",
+       "originMetroGroup": "<string>",
+       "destinationMetroGroup": "<string>",
+       "operatingCarrier": "<string>",
+       "marketingCarrier": "<string>",
+       "marketingFlightNum": "<string>",
+       "operatingFlightNum": "<string>",
+       "fromTerminal": "<string>",
+       "toTerminal": "<string>",
+       "selectedSeatQuotes": [
+        {
+         "passangerId": "<string>",
+         "secureHash": "<string>",
+         "segmentId": "<string>",
+         "legId": "<string>",
+         "categoryId": "<string>",
+         "codeType": "<string>",
+         "currencyCode": "<string>",
+         "flxDignoticId": "<string>",
+         "serviceId": "<string>",
+         "amount": "<double>",
+         "row": "<integer>",
+         "seat": "<string>",
+         "seatHeldId": "<integer>"
+        },
+        {
+         "passangerId": "<string>",
+         "secureHash": "<string>",
+         "segmentId": "<string>",
+         "legId": "<string>",
+         "categoryId": "<string>",
+         "codeType": "<string>",
+         "currencyCode": "<string>",
+         "flxDignoticId": "<string>",
+         "serviceId": "<string>",
+         "amount": "<double>",
+         "row": "<integer>",
+         "seat": "<string>",
+         "seatHeldId": "<integer>"
+        }
+       ],
+       "isBusRoute": "<boolean>",
+       "equipmentType": "<string>"
+      },
+      {
+       "departureDate": "<string>",
+       "departureTime": "<string>",
+       "arrivalDate": "<string>",
+       "hasFreeMeals": "<boolean>",
+       "arrivalTime": "<string>",
+       "flightDuration": "<string>",
+       "pfId": "<string>",
+       "flightNumber": "<string>",
+       "isCircularNextLeg": "<boolean>",
+       "origin": "<string>",
+       "destination": "<string>",
+       "originMetroGroup": "<string>",
+       "destinationMetroGroup": "<string>",
+       "operatingCarrier": "<string>",
+       "marketingCarrier": "<string>",
+       "marketingFlightNum": "<string>",
+       "operatingFlightNum": "<string>",
+       "fromTerminal": "<string>",
+       "toTerminal": "<string>",
+       "selectedSeatQuotes": [
+        {
+         "passangerId": "<string>",
+         "secureHash": "<string>",
+         "segmentId": "<string>",
+         "legId": "<string>",
+         "categoryId": "<string>",
+         "codeType": "<string>",
+         "currencyCode": "<string>",
+         "flxDignoticId": "<string>",
+         "serviceId": "<string>",
+         "amount": "<double>",
+         "row": "<integer>",
+         "seat": "<string>",
+         "seatHeldId": "<integer>"
+        },
+        {
+         "passangerId": "<string>",
+         "secureHash": "<string>",
+         "segmentId": "<string>",
+         "legId": "<string>",
+         "categoryId": "<string>",
+         "codeType": "<string>",
+         "currencyCode": "<string>",
+         "flxDignoticId": "<string>",
+         "serviceId": "<string>",
+         "amount": "<double>",
+         "row": "<integer>",
+         "seat": "<string>",
+         "seatHeldId": "<integer>"
+        }
+       ],
+       "isBusRoute": "<boolean>",
+       "equipmentType": "<string>"
+      }
+     ],
+     "flightNum": "<string>",
+     "flightGroupID": "<string>"
+    }
+   ],
+   "brands": [
+    {
+     "name": "<string>",
+     "fareTypeID": "<string>",
+     "cabin": "<string>",
+     "includes": [
+      {
+       "type": "string",
+       "default": "<string>"
+      },
+      {
+       "type": "string",
+       "default": "<string>"
+      }
+     ]
+    },
+    {
+     "name": "<string>",
+     "fareTypeID": "<string>",
+     "cabin": "<string>",
+     "includes": [
+      {
+       "type": "string",
+       "default": "<string>"
+      },
+      {
+       "type": "string",
+       "default": "<string>"
+      }
+     ]
+    }
+   ],
+   "notifications": [
+    {
+     "cmsKey": "<string>",
+     "defaultMessage": "<string>",
+     "displayLevel": "<string>",
+     "canContinue": "<boolean>",
+     "pnr": "<string>",
+     "lstExtraProperties": [
+      {
+       "key": "<string>",
+       "lfId": "<string>",
+       "value": "<string>",
+       "canContinue": "<boolean>",
+       "remarks": "<string>"
+      },
+      {
+       "key": "<string>",
+       "lfId": "<string>",
+       "value": "<string>",
+       "canContinue": "<boolean>",
+       "remarks": "<string>"
+      }
+     ]
+    },
+    {
+     "cmsKey": "<string>",
+     "defaultMessage": "<string>",
+     "displayLevel": "<string>",
+     "canContinue": "<boolean>",
+     "pnr": "<string>",
+     "lstExtraProperties": [
+      {
+       "key": "<string>",
+       "lfId": "<string>",
+       "value": "<string>",
+       "canContinue": "<boolean>",
+       "remarks": "<string>"
+      },
+      {
+       "key": "<string>",
+       "lfId": "<string>",
+       "value": "<string>",
+       "canContinue": "<boolean>",
+       "remarks": "<string>"
+      }
+     ]
+    }
+   ],
+   "isInterline": "<boolean>",
+   "isCodeShare": "<boolean>",
+   "lowestAdultFareCabin": "<string>",
+   "lowestFareByCabin": [
+    {
+     "lowestAdultFarePerPax": "<string>",
+     "lowestAdultFareTaxSumPerPax": "<string>",
+     "lowestAdultFareNoTaxUnformatted": "<string>",
+     "currencyCode": "<string>",
+     "lowestAdultFareCabin": "<string>"
+    },
+    {
+     "lowestAdultFarePerPax": "<string>",
+     "lowestAdultFareTaxSumPerPax": "<string>",
+     "lowestAdultFareNoTaxUnformatted": "<string>",
+     "currencyCode": "<string>",
+     "lowestAdultFareCabin": "<string>"
+    }
+   ],
+   "multiDayLowestFareflights": [
+    {
+     "lfId": "<string>",
+     "departureDate": "<string>",
+     "lowestAdultFarePerPax": "<string>",
+     "lowestAdultFareTaxSumPerPax": "<string>",
+     "lowestAdultFareNoTaxUnformatted": "<string>",
+     "isInterline": "<boolean>",
+     "isCodeShare": "<boolean>",
+     "solutionId": "<string>",
+     "combinables": [
+      "<string>",
+      "<string>"
+     ]
+    },
+    {
+     "lfId": "<string>",
+     "departureDate": "<string>",
+     "lowestAdultFarePerPax": "<string>",
+     "lowestAdultFareTaxSumPerPax": "<string>",
+     "lowestAdultFareNoTaxUnformatted": "<string>",
+     "isInterline": "<boolean>",
+     "isCodeShare": "<boolean>",
+     "solutionId": "<string>",
+     "combinables": [
+      "<string>",
+      "<string>"
+     ]
+    }
+   ]
+  }
+ ],
+ "messages": [
+  {
+   "cmsKey": "<string>",
+   "defaultMessage": "<string>",
+   "defaultTitle": "<string>",
+   "route": "<string>",
+   "lfId": "<string>",
+   "AcceptanceRequired": "<boolean>"
+  },
+  {
+   "cmsKey": "<string>",
+   "defaultMessage": "<string>",
+   "defaultTitle": "<string>",
+   "route": "<string>",
+   "lfId": "<string>",
+   "AcceptanceRequired": "<boolean>"
+  }
+ ],
+ "validationRules": {
+  "isTravelDocMandatory": "<boolean>",
+  "isApisForBusinessMandatory": "<boolean>",
+  "isApisForEconomyMandatory": "<boolean>",
+  "isInsuranceMandatory": "<boolean>",
+  "showAllFlights": "<boolean>",
+  "numberOfFlightsShown": "<integer>",
+  "infantMinDays": "<integer>",
+  "lstExtraProperties": [
+   {
+    "key": "<string>",
+    "lfId": "<string>",
+    "value": "<string>",
+    "canContinue": "<boolean>",
+    "remarks": "<string>"
+   },
+   {
+    "key": "<string>",
+    "lfId": "<string>",
+    "value": "<string>",
+    "canContinue": "<boolean>",
+    "remarks": "<string>"
+   }
+  ]
+ },
+ "notifications": [
+  {
+   "cmsKey": "<string>",
+   "defaultMessage": "<string>",
+   "displayLevel": "<string>",
+   "canContinue": "<boolean>",
+   "pnr": "<string>",
+   "lstExtraProperties": [
+    {
+     "key": "<string>",
+     "lfId": "<string>",
+     "value": "<string>",
+     "canContinue": "<boolean>",
+     "remarks": "<string>"
+    },
+    {
+     "key": "<string>",
+     "lfId": "<string>",
+     "value": "<string>",
+     "canContinue": "<boolean>",
+     "remarks": "<string>"
+    }
+   ]
+  },
+  {
+   "cmsKey": "<string>",
+   "defaultMessage": "<string>",
+   "displayLevel": "<string>",
+   "canContinue": "<boolean>",
+   "pnr": "<string>",
+   "lstExtraProperties": [
+    {
+     "key": "<string>",
+     "lfId": "<string>",
+     "value": "<string>",
+     "canContinue": "<boolean>",
+     "remarks": "<string>"
+    },
+    {
+     "key": "<string>",
+     "lfId": "<string>",
+     "value": "<string>",
+     "canContinue": "<boolean>",
+     "remarks": "<string>"
+    }
+   ]
+  }
+ ],
+ "conversions": "<object>",
+ "channel": "<string>",
+ "lowestTotalFare": {
+  "baseFare": "<string>",
+  "tax": "<string>",
+  "totalFare": "<string>",
+  "lowestFlights": [
+   {
+    "lfId": "<string>",
+    "solutionId": "<string>",
+    "cabin": "<string>"
+   },
+   {
+    "lfId": "<string>",
+    "solutionId": "<string>",
+    "cabin": "<string>"
+   }
+  ]
+ },
+ "sessionExpiryGMT": "<dateTime>",
+ "sessionRemainingTime": "<integer>"
+}

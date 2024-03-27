@@ -1,0 +1,13 @@
+{
+    "systemId": "FZPSS",
+    "entityId": " ",
+    "paymentId": "{{paymentId}}",
+    "currency": "{{currency}}",
+    "amount": "{{amount}}",
+    "requestType": "TRAVEL",
+    "sessionId": "{{sessionId}}",
+    "threatMetrixPurl": "https://uatpayments.flydubai.com/fp/clear.png?org_id=1snn5n9w&amp;session_id=flydubai4d792948cfe1a4787990c47b1c5d37529&amp;m=1",
+    "threatMetrixIMGurl": "https://uatpayments.flydubai.com/fp/clear.png?org_id=1snn5n9w&amp;session_id=flydubaid792948cfe1a4787990c47b1c5d37529&amp;m=2",
+    "threatMetrixSCRIPTurl": "https://uatpayments.flydubai.com/fp/check.js?org_id=1snn5n9w&amp;session_id=flydubaid792948cfe1a4787990c47b1c5d37529",
+    "paymentMethod": "PAYLATER"
+}

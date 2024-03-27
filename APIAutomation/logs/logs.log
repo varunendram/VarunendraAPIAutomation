@@ -1,0 +1,2 @@
+01:05:04.007 [main] INFO  test.api.HttpRequest - ***   Sending Request  *********
+01:05:05.974 [main] INFO  test.api.PostRequest - ***   Sending Request  *********
