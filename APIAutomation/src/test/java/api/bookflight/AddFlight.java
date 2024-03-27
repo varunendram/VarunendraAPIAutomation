@@ -65,29 +65,5 @@ public class AddFlight {
 		context.setAttribute("AddFlighRS", AddFlighRS);
 		
 	}
-	
-
-	@Test
-	void lowestprice() {
-		JSONObject jo=CoreUtil.getJSONObject(CoreUtil.getProperty("FlightSearchResponse"));
-		
-		JSONObject lowestTotal=new JSONObject();
-		lowestTotal.put("segments", jo.getJSONArray("segments"));
-		lowestTotal.put("lowestTotalFare", jo.getJSONObject("lowestTotalFare"))	;
-		System.out.println("+++++++++++++++++++++++++++++++++");
-		System.out.println(lowestTotal.length());
-		System.out.println("+++++++++++++++++++++++++++++++++");
-		
-	}
-	
-//	String setLowestFareFlight(JSONObject obj,cabin)
-//	{
-//	   
-//	   var lowestTotal = _.pick(response, ['segments', 'lowestTotalFare']);
-//	    
-//	   lowest=  _.first(lowestTotal.lowestTotalFare, function(fare) {
-//	       
-//	    return fare.cabin.toUpperCase() ===cabin.toUpperCase() ;
-//	});
 
 }
