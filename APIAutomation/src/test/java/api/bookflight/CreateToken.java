@@ -38,7 +38,7 @@ public class CreateToken {
 				  .post(tokenURI);
 		res.then().log().all();
 		res.then().log().all();
-		logger.info("Validating Json Schema and Status code");
+		logger.info("Validating Status code");
 		res.then().statusCode(200);
 		logger.info("Validating Json Content-Type");
 		res.then().header("Content-Type", "application/json");

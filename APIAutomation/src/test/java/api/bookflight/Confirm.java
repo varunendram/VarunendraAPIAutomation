@@ -36,7 +36,7 @@ public class Confirm {
 						.header("appID", appID)
 						.header("SecurityToken", SecurityToken)
 				      .when()
-				         .get(confirmURI);
+				         .post(confirmURI);
 		res.then().log().all();
 		
 		res.then().log().all();
