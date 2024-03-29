@@ -1,2 +1,23 @@
-01:05:04.007 [main] INFO  test.api.HttpRequest - ***   Sending Request  *********
-01:05:05.974 [main] INFO  test.api.PostRequest - ***   Sending Request  *********
+23:34:25.061 [main] INFO  api.bookflight.CreateToken - ***   Sending Request  *********
+23:34:26.806 [main] INFO  api.bookflight.CreateToken - Skipping Validation of Create Token API
+23:34:26.829 [main] INFO  api.bookflight.FlightSeachDayOne - ***   Sending Request  *********
+23:34:27.993 [main] INFO  api.bookflight.FlightSeachDayOne - Validating Json Schema and Status code
+23:34:28.289 [main] INFO  api.bookflight.FlightSeachDayOne - Validating Json Content-Type
+23:34:28.295 [main] INFO  api.bookflight.FlightSeachDayOne - Asserting response time is less than 3000 millisecond
+23:34:28.320 [main] INFO  api.bookflight.AddFlight - ***   addFlight URI Request  *********
+23:34:29.048 [main] INFO  api.bookflight.AddFlight - Validating Json Schema and Status code
+23:34:29.059 [main] INFO  api.bookflight.AddFlight - Validating Json Content-Type
+23:34:29.059 [main] INFO  api.bookflight.AddFlight - Asserting response time is less than 3000 millisecond
+23:34:29.079 [main] INFO  api.bookflight.Payment - ***   Sending Request  *********
+23:34:32.363 [main] INFO  api.bookflight.Payment - Validating Json Schema and Status code
+23:34:32.373 [main] INFO  api.bookflight.Payment - Validating Json Content-Type
+23:34:32.817 [main] INFO  api.bookflight.GetPciSesssion - ***   Sending Request  *********
+23:34:33.531 [main] INFO  api.bookflight.GetPciSesssion - Validating Json Schema and Status code
+23:34:33.535 [main] INFO  api.bookflight.GetPciSesssion - Validating Json Content-Type
+23:34:33.537 [main] INFO  api.bookflight.GetPciSesssion - Asserting response time is less than 3000 millisecond
+23:34:33.603 [main] INFO  api.bookflight.Paylater - ***   Sending Request  *********
+23:34:37.424 [main] INFO  api.bookflight.Paylater - Validating Json Schema and Status code
+23:34:37.431 [main] INFO  api.bookflight.Paylater - Validating Json Content-Type
+23:34:37.434 [main] INFO  api.bookflight.Confirm - ***   Sending Request  *********
+23:34:38.844 [main] INFO  api.bookflight.Confirm - Validating Json Schema and Status code
+23:34:38.873 [main] INFO  api.bookflight.Confirm - PNR Reference: LON71R

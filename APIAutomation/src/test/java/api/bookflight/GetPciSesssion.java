@@ -23,12 +23,13 @@ public class GetPciSesssion {
 
 	@Test
 	void getPciSession(ITestContext context) throws IOException {
+		System.out.println("GetPCISession test executing   ");
 		logger=LogManager.getLogger(this.getClass());
 		String baseUrl = CoreUtil.getProperty("baseUrl");
 		String SecurityToken = (String) context.getAttribute("SecurityToken");
 		String pciSessionURI = (String) context.getAttribute("pciSessionUrl");
-		String serachRq = (String) context.getAttribute("serachRq");
-		String selectedFlights = (String) context.getAttribute("selectedFlights");
+		Object serachRq =  context.getAttribute("serachRq");
+		Object selectedFlights =  context.getAttribute("selectedFlights");
 		String confirmUrl=baseUrl+"/api/itinerary/confirm";
 		
 		JSONObject payloadData = CoreUtil.getJSONObject(CoreUtil.getProperty("PciSessionPayload"));

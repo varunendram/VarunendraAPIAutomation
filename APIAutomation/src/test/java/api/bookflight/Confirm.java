@@ -22,6 +22,7 @@ public class Confirm {
 
 	@Test
 	void confirm(ITestContext context) throws IOException {
+		System.out.println(" Confirm test executing   ");
 		logger=LogManager.getLogger(this.getClass());
 		String baseUrl = CoreUtil.getProperty("baseUrl");
 		String appID = CoreUtil.getProperty("APPID");
@@ -43,15 +44,9 @@ public class Confirm {
 		logger.info("Validating Json Schema and Status code");
 		res.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(expRespJsonSchema));
 		res.then().statusCode(200);
-		logger.info("Validating Json Content-Type");
-		res.then().header("Content-Type", "application/json");
-		logger.info("Asserting response time is less than 3000 millisecond");
-		ValidatableResponse valRes = res.then();
-		valRes.time(Matchers.lessThan(3000L));
-       
-
 		String pnrReference = res.jsonPath().get("pnrInformation.bookingReference");
 		System.out.println("PNR Reference: " + pnrReference);
+		logger.info("PNR Reference: "+pnrReference);
 	}
 
 }

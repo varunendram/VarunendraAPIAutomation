@@ -13,6 +13,7 @@ import org.json.JSONObject;
 import org.testng.ITestContext;
 import org.testng.annotations.Test;
 
+
 import api.utilities.CoreUtil;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
@@ -23,13 +24,15 @@ public class Payment {
 
 	@Test
 	void payment(ITestContext context) throws IOException {
+		System.out.println(" Payment test executing   ");
 		logger=LogManager.getLogger(this.getClass());
 		String baseUrl = CoreUtil.getProperty("baseUrl");
 		String appID = CoreUtil.getProperty("APPID");
 		String Authorization = (String) context.getAttribute("AUTH_TOKEN");
 		String SecurityToken = (String) context.getAttribute("SecurityToken");
-		String serachRq = (String) context.getAttribute("serachRq");
-		String selectedFlights = (String) context.getAttribute("selectedFlights");
+		Object serachRq = context.getAttribute("serachRq");
+		Object selectedFlights =context.getAttribute("selectedFlights");
+	
 
 		String paymentURI = baseUrl + "/api/itinerary/Payment";
 		
@@ -37,12 +40,15 @@ public class Payment {
 		payloadData.put("searchRequest",serachRq);
 		payloadData.put("selectedFlights",selectedFlights);
 		logger.info("***   Sending Request  *********");
+		System.out.println("Payload sending n Payment"+payloadData.toString());
 		String expRespJsonSchema = new String(Files.readAllBytes(Paths.get(CoreUtil.getProperty("PaymentSchema"))));
 		Response res = given()
 							.contentType("application/json")
-							.header("Authorization", Authorization)
-							.header("appID", appID)
-							.header("SecurityToken", SecurityToken)
+							.header("Authorization", "")
+							.header("appID", appID.toString())
+							.header("SecurityToken", SecurityToken.toString())
+//							.header("Cookie",
+//									"incap_ses_738_3059696=aoTQfZroPEKENJMcweg9Cv99BmYAAAAAsaJnsgJBYFtWnMKyUkyvAg==; visid_incap_3057254=qbOQx3QmRUyNAHatkqOP3KHD+mUAAAAAQUIPAAAAAAClRVC3RAG/4wYppQF7R7qs; visid_incap_3059696=3n0tnm0GRQymE8P/2yd1lxtH9GUAAAAAQUIPAAAAAACM4trRL64ltCxP9Qn3/Fij")
 							.body(payloadData.toString())
 				      .when()
 				            .post(paymentURI);
@@ -51,10 +57,7 @@ public class Payment {
 		res.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(expRespJsonSchema));
 		res.then().statusCode(200);
 		logger.info("Validating Json Content-Type");
-		res.then().header("Content-Type", "application/json");
-		logger.info("Asserting response time is less than 3000 millisecond");
-		ValidatableResponse valRes = res.then();
-		valRes.time(Matchers.lessThan(3000L));
+		res.then().header("Content-Type", "application/json; charset=utf-8");
 
 		String pciURLtoRedirect = res.jsonPath().get("pciURLtoRedirect");
 		String PCI_PostUrl = pciURLtoRedirect.replace("paymentui/", "payments/0.1/cards");

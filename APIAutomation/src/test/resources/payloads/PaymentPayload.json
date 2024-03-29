@@ -64,9 +64,9 @@
         "isReadyToSignUpForOffers": "false"
     },
     "currency": "",
-    "searchRequest":{{serachRq}} ,
-    "selectedFlights":{{selectedFlights}},
+    "searchRequest":"" ,
+    "selectedFlights":"",
      "itineraryAction": "3",
-      "confirmUrl": "{{baseUrl}}/api/itinerary/confirm",
+      "confirmUrl": "//localhost:5000/api/itinerary/confirm",
   "locale": "en"
 }

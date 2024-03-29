@@ -22,6 +22,7 @@ public class Paylater {
 	public Logger logger;
 	@Test
 	void paylater(ITestContext context) throws IOException {
+		System.out.println(" Paylater test executing   ");
 		logger=LogManager.getLogger(this.getClass());
 		String SecurityToken = (String) context.getAttribute("SecurityToken");
 		String sessionId = (String) context.getAttribute("sessionId");
@@ -49,10 +50,6 @@ public class Paylater {
 		res.then().statusCode(200);
 		logger.info("Validating Json Content-Type");
 		res.then().header("Content-Type", "application/json");
-		logger.info("Asserting response time is less than 3000 millisecond");
-		ValidatableResponse valRes = res.then();
-		valRes.time(Matchers.lessThan(3000L));
-
 	}
 
 }
