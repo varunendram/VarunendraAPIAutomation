@@ -23,11 +23,11 @@ public class FlightSeachDayOne {
 	public Logger logger;
 	@Test
 	void searchFlight(ITestContext context) throws IOException {
-		System.out.println("FLight Search test executing   ");
 		logger=LogManager.getLogger(this.getClass());
+		logger.info("******* Flight Search test executing *********  ");
 		String baseUrl = CoreUtil.getProperty("baseUrl");
 		String appID = CoreUtil.getProperty("APPID");
-		String cabin = CoreUtil.getProperty("cabin");
+//		String cabin = CoreUtil.getProperty("cabin");
 		String origin = CoreUtil.getProperty("origin");
 		String dest = CoreUtil.getProperty("dest");
 		String date = CoreUtil.getProperty("date");
@@ -39,7 +39,7 @@ public class FlightSeachDayOne {
 		payloadData.getJSONArray("searchCriteria").getJSONObject(0).put("date", date);
 
 		String searchFlightURI = baseUrl + "/api/flights/1";
-		logger.info("***   Sending Request  *********");
+		logger.info("*** POST Request API: "+searchFlightURI);
 		String expRespJsonSchema = new String(Files.readAllBytes(Paths.get(CoreUtil.getProperty("FlightSearchResponse"))));
 		Response res = given()
 						.contentType("application/json")
@@ -62,7 +62,38 @@ public class FlightSeachDayOne {
 		SecurityToken = SecurityToken.replace("securityToken=", "");
 		
 		String serachRq = payloadData.toString();
-		System.out.println("serachRq: "+serachRq);
+		logger.info("serachRq: "+serachRq);
+		
+		
+		/* function setLowestFareFlight(response,cabin)
+		 {
+		       var lowestTotal = _.pick(response, ['segments', 'lowestTotalFare']);
+			   lowest=  _.first(lowestTotal.lowestTotalFare, function(fare) {
+				    return fare.cabin.toUpperCase() ===cabin.toUpperCase() ;
+				});
+				console.log (lowest);
+				var retList=[];
+				_.each(lowest.lowestFlights,function(flight){
+				_.each(lowestTotal.segments,function(segment){
+				 slectedlowestFlight=_.first(segment.flights,function(segmentflight){
+				    return segmentflight.lfId===flight.lfId})
+				})
+				slectedlowestFlight.selectedFare=_.first(slectedlowestFlight.fareTypes,function(fareType){
+				console.log(">> Lowest fare",fareType);
+				    return fareType.fare.solutionId===flight.solutionId;
+				})
+				retList.push(slectedlowestFlight);
+				})
+				return retList;
+		  }*/
+		 
+		
+		/*
+		NOTE: Business logic of above function copied from postman collection is not clear.
+		      Few logic depends on the function passed as second argument in lodash _.first().
+		      Second argument will be ignored, because _.first() is designed to have one argument only.
+		      In this automation ,I wrote what is the effective outcome of above postman function, Just to mimic postman.		
+		*/
 		
 		JSONObject respBody= new JSONObject(res.getBody().asString());
 		JSONObject segment_0=(JSONObject)((JSONArray)respBody.get("segments")).get(0);
@@ -70,17 +101,14 @@ public class FlightSeachDayOne {
 		JSONObject selectedFare=(JSONObject)((JSONArray)selectedFlights.get("fareTypes")).get(0);
 	
 		selectedFlights.put("selectedFare", selectedFare);
-		
-		JSONObject ab= (JSONObject)selectedFlights;
-		ab.put("selectedFare", selectedFare);
 		JSONArray obj=new JSONArray();
 		obj.put(0,selectedFlights);
 		
+		logger.info("selectedFlights: "+selectedFlights.toString());
+		logger.info("SecurityToken: "+SecurityToken.toString());
 		context.setAttribute("serachRq", payloadData);
 		context.setAttribute("selectedFlights", obj);
 		context.setAttribute("SecurityToken", SecurityToken);
-		System.out.println("SecurityToken: "+SecurityToken);
-
 	}
 
 }
